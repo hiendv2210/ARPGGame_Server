@@ -1,0 +1,610 @@
+[2013-12-11 18:24:18.240] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-11 18:24:19.779] [INFO] console - info: socket.io started
+[2013-12-11 18:24:19.900] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-11 18:24:20.527] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-11 18:24:20.529] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-11 21:33:55.096] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-11 21:33:56.294] [INFO] console - info: socket.io started
+[2013-12-11 21:33:56.330] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-11 21:33:56.575] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-11 21:33:56.577] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-11 21:48:43.414] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-11 21:48:45.015] [INFO] console - info: socket.io started
+[2013-12-11 21:48:45.066] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-11 21:48:45.515] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-11 21:48:45.521] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-11 22:30:04.729] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-11 22:30:05.828] [INFO] console - info: socket.io started
+[2013-12-11 22:30:05.873] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-11 22:30:06.111] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-11 22:30:06.114] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-11 23:35:46.113] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-11 23:35:47.369] [INFO] console - info: socket.io started
+[2013-12-11 23:35:47.416] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-11 23:35:47.617] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-11 23:35:47.619] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-12 02:24:47.538] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-12 02:24:48.759] [INFO] console - info: socket.io started
+[2013-12-12 02:24:48.822] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-12 02:24:49.089] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-12 02:24:49.091] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-12 04:19:00.376] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-12 04:19:01.613] [INFO] console - info: socket.io started
+[2013-12-12 04:19:01.659] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.0.107", 3005
+[2013-12-12 04:19:01.962] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-12 04:19:01.964] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-12 08:33:35.243] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-12 08:33:36.618] [INFO] console - info: socket.io started
+[2013-12-12 08:33:36.648] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.1.102", 3005
+[2013-12-12 08:33:36.885] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-12 08:33:36.887] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-12 11:19:00.573] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-12 11:19:02.709] [INFO] console - info: socket.io started
+[2013-12-12 11:19:02.855] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.1.102", 3005
+[2013-12-12 11:19:03.184] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-12 11:19:03.186] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-13 15:53:42.121] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-13 15:53:44.251] [INFO] console - info: socket.io started
+[2013-12-13 15:53:44.315] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.1.103", 3005
+[2013-12-13 15:53:44.749] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-13 15:53:44.754] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-13 16:26:04.333] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-13 16:26:06.492] [INFO] console - info: socket.io started
+[2013-12-13 16:26:06.643] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.1.103", 3005
+[2013-12-13 16:26:07.232] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-13 16:26:07.242] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-13 16:28:59.301] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-13 16:28:59.343] [INFO] console - Chay app.js
+[2013-12-13 16:29:01.182] [INFO] console - info: socket.io started
+[2013-12-13 16:29:01.283] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.1.103", 3005
+[2013-12-13 16:29:01.772] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-13 16:29:01.775] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-13 16:34:10.505] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-13 16:34:12.662] [INFO] console - info: socket.io started
+[2013-12-13 16:34:12.764] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.1.103", 3005
+[2013-12-13 16:34:13.372] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-13 16:34:13.374] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-13 16:42:29.654] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-13 16:42:30.895] [INFO] console - info: socket.io started
+[2013-12-13 16:42:30.941] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.1.103", 3005
+[2013-12-13 16:42:31.188] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-13 16:42:31.190] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-13 16:50:48.733] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-13 16:50:50.668] [INFO] console - info: socket.io started
+[2013-12-13 16:50:50.741] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "192.168.1.103", 3005
+[2013-12-13 16:50:51.366] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-13 16:50:51.368] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-16 13:47:20.748] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-16 13:47:22.099] [INFO] console - info: socket.io started
+[2013-12-16 13:47:22.161] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-16 13:47:22.461] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-16 13:47:22.463] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/chatofpomelo-master/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 16:20:00.232] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 16:20:01.537] [INFO] console - info: socket.io started
+[2013-12-19 16:20:01.578] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 16:20:01.819] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 16:20:01.821] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 16:21:01.608] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 16:21:02.707] [INFO] console - info: socket.io started
+[2013-12-19 16:21:02.730] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 16:21:02.951] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 16:21:02.953] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 16:21:07.352] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 16:21:08.399] [INFO] console - info: socket.io started
+[2013-12-19 16:21:08.425] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 16:21:08.616] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 16:21:08.618] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 16:25:58.865] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 16:25:59.908] [INFO] console - info: socket.io started
+[2013-12-19 16:25:59.944] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 16:26:00.197] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 16:26:00.209] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 16:35:44.627] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 16:35:45.770] [INFO] console - info: socket.io started
+[2013-12-19 16:35:45.791] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 16:35:46.024] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 16:35:46.027] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 16:42:26.224] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 16:42:27.505] [INFO] console - info: socket.io started
+[2013-12-19 16:42:27.544] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 16:42:27.803] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 16:42:27.805] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:04:15.196] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:04:16.579] [INFO] console - info: socket.io started
+[2013-12-19 17:04:16.605] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:04:16.896] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:04:16.897] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:06:09.123] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:06:10.333] [INFO] console - info: socket.io started
+[2013-12-19 17:06:10.387] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:06:10.631] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:06:10.633] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:07:17.489] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:07:19.468] [INFO] console - info: socket.io started
+[2013-12-19 17:07:19.541] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:07:19.944] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:07:19.946] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:09:41.164] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:09:42.437] [INFO] console - info: socket.io started
+[2013-12-19 17:09:42.485] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:09:42.699] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:09:42.701] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:10:44.447] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:10:45.758] [INFO] console - info: socket.io started
+[2013-12-19 17:10:45.792] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:10:46.059] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:10:46.061] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:12:47.925] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:12:48.996] [INFO] console - info: socket.io started
+[2013-12-19 17:12:49.022] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:12:49.253] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:12:49.255] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:13:12.943] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:13:13.989] [INFO] console - info: socket.io started
+[2013-12-19 17:13:14.037] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:13:14.271] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:13:14.273] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:16:54.406] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:16:55.555] [INFO] console - info: socket.io started
+[2013-12-19 17:16:55.611] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:16:55.881] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:16:55.884] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:18:00.479] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:18:01.744] [INFO] console - info: socket.io started
+[2013-12-19 17:18:01.773] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:18:02.040] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:18:02.042] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:19:08.638] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:19:09.671] [INFO] console - info: socket.io started
+[2013-12-19 17:19:09.698] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:19:09.924] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:19:09.927] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:21:59.782] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:22:01.060] [INFO] console - info: socket.io started
+[2013-12-19 17:22:01.106] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:22:01.389] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:22:01.391] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:27:18.962] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:27:19.038] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-19 17:27:20.400] [INFO] console - info: socket.io started
+[2013-12-19 17:27:20.477] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:27:20.770] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:27:20.772] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:48:29.266] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:48:29.325] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-19 17:48:30.700] [INFO] console - info: socket.io started
+[2013-12-19 17:48:30.760] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:48:31.046] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:48:31.048] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:49:22.423] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:49:22.492] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-19 17:49:23.831] [INFO] console - info: socket.io started
+[2013-12-19 17:49:23.867] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:49:24.142] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:49:24.144] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:51:52.656] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:51:52.709] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-19 17:51:53.730] [INFO] console - info: socket.io started
+[2013-12-19 17:51:53.759] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:51:54.020] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:51:54.023] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 17:53:13.051] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 17:53:13.068] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-19 17:53:14.183] [INFO] console - info: socket.io started
+[2013-12-19 17:53:14.210] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 17:53:14.458] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 17:53:14.460] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-19 21:42:33.635] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-19 21:42:33.687] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-19 21:42:34.704] [INFO] console - info: socket.io started
+[2013-12-19 21:42:34.745] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-19 21:42:34.962] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-19 21:42:34.964] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 09:17:25.765] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 09:17:25.793] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 09:17:26.901] [INFO] console - info: socket.io started
+[2013-12-20 09:17:26.934] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 09:17:27.168] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 09:17:27.170] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 09:22:40.339] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 09:22:40.409] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 09:22:41.535] [INFO] console - info: socket.io started
+[2013-12-20 09:22:41.560] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 09:22:41.804] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 09:22:41.806] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 09:26:38.865] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 09:26:38.894] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 09:26:40.087] [INFO] console - info: socket.io started
+[2013-12-20 09:26:40.137] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 09:26:40.437] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 09:26:40.439] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 09:30:16.029] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 09:30:16.070] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 09:30:17.370] [INFO] console - info: socket.io started
+[2013-12-20 09:30:17.408] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 09:30:17.695] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 09:30:17.699] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 09:44:17.615] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 09:44:17.672] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 09:44:18.968] [INFO] console - info: socket.io started
+[2013-12-20 09:44:19.009] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 09:44:19.259] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 09:44:19.261] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 09:51:21.010] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 09:51:21.062] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 09:51:22.352] [INFO] console - info: socket.io started
+[2013-12-20 09:51:22.393] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 09:51:22.627] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 09:51:22.629] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:01:34.273] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:01:34.314] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:01:35.418] [INFO] console - info: socket.io started
+[2013-12-20 10:01:35.471] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:01:35.770] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:01:35.772] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:08:32.729] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:08:32.762] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:08:34.029] [INFO] console - info: socket.io started
+[2013-12-20 10:08:34.088] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:08:34.344] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:08:34.347] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:10:06.407] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:10:06.430] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:10:07.679] [INFO] console - info: socket.io started
+[2013-12-20 10:10:07.705] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:10:08.035] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:10:08.039] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:19:27.033] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:19:27.071] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:19:28.165] [INFO] console - info: socket.io started
+[2013-12-20 10:19:28.218] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:19:28.480] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:19:28.482] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:20:56.301] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:20:56.324] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:20:59.105] [INFO] console - info: socket.io started
+[2013-12-20 10:20:59.160] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:20:59.719] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:20:59.721] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:21:18.456] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:21:18.506] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:21:20.356] [INFO] console - info: socket.io started
+[2013-12-20 10:21:20.469] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:21:20.898] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:21:20.900] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:25:06.683] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:25:06.729] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:25:07.828] [INFO] console - info: socket.io started
+[2013-12-20 10:25:07.874] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:25:08.113] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:25:08.117] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:31:00.183] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:31:00.244] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:31:01.416] [INFO] console - info: socket.io started
+[2013-12-20 10:31:01.467] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:31:01.727] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:31:01.729] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:42:03.711] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:42:03.751] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:42:04.795] [INFO] console - info: socket.io started
+[2013-12-20 10:42:04.825] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:42:05.146] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:42:05.148] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:43:31.216] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:43:31.249] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:43:32.292] [INFO] console - info: socket.io started
+[2013-12-20 10:43:32.321] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:43:32.544] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:43:32.546] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:44:00.272] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:44:00.316] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:44:01.346] [INFO] console - info: socket.io started
+[2013-12-20 10:44:01.391] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:44:01.642] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:44:01.644] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:46:37.990] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:46:38.033] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:46:39.062] [INFO] console - info: socket.io started
+[2013-12-20 10:46:39.096] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:46:39.342] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:46:39.345] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:55:09.577] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:55:09.599] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:55:10.799] [INFO] console - info: socket.io started
+[2013-12-20 10:55:10.834] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:55:11.129] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:55:11.131] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 10:56:13.167] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 10:56:13.188] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 10:56:14.368] [INFO] console - info: socket.io started
+[2013-12-20 10:56:14.410] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 10:56:14.672] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 10:56:14.674] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 11:47:04.007] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 11:47:04.038] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 11:47:05.157] [INFO] console - info: socket.io started
+[2013-12-20 11:47:05.204] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 11:47:05.578] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 11:47:05.580] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 14:00:08.846] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 14:00:08.882] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 14:00:09.924] [INFO] console - info: socket.io started
+[2013-12-20 14:00:09.963] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 14:00:10.266] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 14:00:10.268] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-20 14:07:08.605] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-20 14:07:08.629] [INFO] console - /Users/dangvanhien/ARPG/TankServer/game-server
+[2013-12-20 14:07:09.611] [INFO] console - info: socket.io started
+[2013-12-20 14:07:09.661] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-20 14:07:09.897] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-20 14:07:09.899] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/TankServer/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 09:53:55.383] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 09:53:55.449] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 09:53:56.816] [INFO] console - info: socket.io started
+[2013-12-23 09:53:56.853] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 09:53:57.115] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 09:53:57.117] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 09:57:56.539] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 09:57:56.576] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 09:57:57.664] [INFO] console - info: socket.io started
+[2013-12-23 09:57:57.701] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 09:57:57.931] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 09:57:57.933] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 10:51:03.381] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 10:51:03.452] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 10:51:04.524] [INFO] console - info: socket.io started
+[2013-12-23 10:51:04.553] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 10:51:04.873] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 10:51:04.886] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 10:55:03.159] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 10:55:03.218] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 10:55:04.404] [INFO] console - info: socket.io started
+[2013-12-23 10:55:04.449] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 10:55:04.710] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 10:55:04.712] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 10:57:53.865] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 10:57:53.905] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 10:57:54.956] [INFO] console - info: socket.io started
+[2013-12-23 10:57:54.998] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 10:57:55.264] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 10:57:55.266] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:05:01.429] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:05:01.468] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:05:02.565] [INFO] console - info: socket.io started
+[2013-12-23 11:05:02.612] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:05:02.799] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:05:02.801] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:07:59.041] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:07:59.075] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:08:00.128] [INFO] console - info: socket.io started
+[2013-12-23 11:08:00.151] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:08:00.408] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:08:00.411] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:14:42.578] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:14:42.609] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:14:43.654] [INFO] console - info: socket.io started
+[2013-12-23 11:14:43.696] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:14:43.950] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:14:43.952] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:18:21.322] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:18:21.372] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:18:22.448] [INFO] console - info: socket.io started
+[2013-12-23 11:18:22.488] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:18:22.702] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:18:22.704] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:20:21.831] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:20:21.878] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:20:23.072] [INFO] console - info: socket.io started
+[2013-12-23 11:20:23.113] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:20:23.345] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:20:23.348] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:23:32.143] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:23:32.183] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:23:33.295] [INFO] console - info: socket.io started
+[2013-12-23 11:23:33.344] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:23:33.597] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:23:33.599] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:26:51.951] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:26:51.982] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:26:52.999] [INFO] console - info: socket.io started
+[2013-12-23 11:26:53.025] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:26:53.273] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:26:53.276] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:27:46.077] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:27:46.133] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:27:47.425] [INFO] console - info: socket.io started
+[2013-12-23 11:27:47.481] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:27:47.757] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:27:47.759] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:29:23.169] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:29:23.204] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:29:24.245] [INFO] console - info: socket.io started
+[2013-12-23 11:29:24.287] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:29:24.536] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:29:24.540] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:32:17.517] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:32:17.547] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:32:18.604] [INFO] console - info: socket.io started
+[2013-12-23 11:32:18.655] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:32:18.973] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:32:18.975] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:33:37.493] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:33:37.524] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:33:38.537] [INFO] console - info: socket.io started
+[2013-12-23 11:33:38.553] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:33:38.812] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:33:38.814] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:42:33.026] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:42:33.061] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:42:34.058] [INFO] console - info: socket.io started
+[2013-12-23 11:42:34.078] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:42:34.329] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:42:34.332] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:45:56.702] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:45:56.744] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:45:57.977] [INFO] console - info: socket.io started
+[2013-12-23 11:45:58.007] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:45:58.247] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:45:58.249] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:48:51.982] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:48:52.027] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:48:53.108] [INFO] console - info: socket.io started
+[2013-12-23 11:48:53.152] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:48:53.500] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:48:53.502] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:50:05.724] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:50:05.775] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:50:07.201] [INFO] console - info: socket.io started
+[2013-12-23 11:50:07.264] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:50:07.539] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:50:07.541] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:52:06.870] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:52:06.918] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:52:08.343] [INFO] console - info: socket.io started
+[2013-12-23 11:52:08.375] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:52:08.645] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:52:08.647] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:53:26.465] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:53:26.484] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:53:27.611] [INFO] console - info: socket.io started
+[2013-12-23 11:53:27.670] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:53:28.016] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:53:28.034] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:54:29.353] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:54:29.397] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:54:30.540] [INFO] console - info: socket.io started
+[2013-12-23 11:54:30.564] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:54:30.904] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:54:30.908] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:55:13.237] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:55:13.275] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:55:14.469] [INFO] console - info: socket.io started
+[2013-12-23 11:55:14.495] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:55:14.768] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:55:14.770] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:56:41.051] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:56:41.084] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:56:42.418] [INFO] console - info: socket.io started
+[2013-12-23 11:56:42.492] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:56:42.734] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:56:42.736] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:58:18.920] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:58:18.967] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:58:20.086] [INFO] console - info: socket.io started
+[2013-12-23 11:58:20.140] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:58:20.514] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:58:20.516] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 11:58:52.623] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 11:58:52.650] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 11:58:53.866] [INFO] console - info: socket.io started
+[2013-12-23 11:58:53.906] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 11:58:54.150] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 11:58:54.152] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:08:16.029] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:08:16.080] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:08:17.643] [INFO] console - info: socket.io started
+[2013-12-23 13:08:17.685] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:08:18.059] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:08:18.061] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:10:47.823] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:10:47.868] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:10:49.434] [INFO] console - info: socket.io started
+[2013-12-23 13:10:49.477] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:10:49.771] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:10:49.774] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:11:29.313] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:11:29.353] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:11:30.681] [INFO] console - info: socket.io started
+[2013-12-23 13:11:30.750] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:11:31.118] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:11:31.120] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:12:08.576] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:12:08.598] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:12:09.696] [INFO] console - info: socket.io started
+[2013-12-23 13:12:09.731] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:12:10.045] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:12:10.053] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:13:28.860] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:13:28.912] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:13:30.633] [INFO] console - info: socket.io started
+[2013-12-23 13:13:30.671] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:13:31.225] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:13:31.227] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:18:44.619] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:18:44.692] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:18:46.555] [INFO] console - info: socket.io started
+[2013-12-23 13:18:46.605] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:18:46.964] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:18:46.966] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:19:51.757] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:19:51.852] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:19:53.731] [INFO] console - info: socket.io started
+[2013-12-23 13:19:53.887] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:19:54.363] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:19:54.365] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:20:54.532] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:20:54.630] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:20:56.346] [INFO] console - info: socket.io started
+[2013-12-23 13:20:56.412] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:20:56.855] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:20:56.858] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:26:23.006] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:26:23.071] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:26:25.196] [INFO] console - info: socket.io started
+[2013-12-23 13:26:25.268] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:26:25.684] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:26:25.686] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:44:31.415] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:44:31.459] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:44:32.793] [INFO] console - info: socket.io started
+[2013-12-23 13:44:32.836] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:44:33.138] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:44:33.141] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:45:47.801] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:45:47.870] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:45:49.065] [INFO] console - info: socket.io started
+[2013-12-23 13:45:49.126] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:45:49.383] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:45:49.385] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:46:51.114] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:46:51.157] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:46:52.395] [INFO] console - info: socket.io started
+[2013-12-23 13:46:52.488] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:46:53.066] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:46:53.068] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 13:48:21.686] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 13:48:21.735] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 13:48:22.939] [INFO] console - info: socket.io started
+[2013-12-23 13:48:22.980] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 13:48:23.631] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 13:48:23.632] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 14:03:12.192] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 14:03:12.213] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:03:13.428] [INFO] console - info: socket.io started
+[2013-12-23 14:03:13.477] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 14:03:13.914] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 14:03:13.916] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 14:05:03.674] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 14:05:03.704] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:05:04.825] [INFO] console - info: socket.io started
+[2013-12-23 14:05:04.884] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 14:05:05.145] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 14:05:05.161] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 14:06:39.348] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 14:06:39.502] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:06:40.910] [INFO] console - info: socket.io started
+[2013-12-23 14:06:41.054] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 14:06:41.541] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 14:06:41.544] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 14:12:06.852] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 14:12:06.954] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:12:08.589] [INFO] console - info: socket.io started
+[2013-12-23 14:12:08.640] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 14:12:09.030] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 14:12:09.033] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start
+[2013-12-23 14:15:44.051] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "chat-server-2"
+[2013-12-23 14:15:44.096] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:15:45.370] [INFO] console - info: socket.io started
+[2013-12-23 14:15:45.449] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2013-12-23 14:15:45.715] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" enter after start...
+[2013-12-23 14:15:45.717] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"chat-server-2" finish start

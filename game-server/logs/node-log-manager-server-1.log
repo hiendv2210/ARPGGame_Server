@@ -1,0 +1,373 @@
+[2013-12-23 14:17:30.980] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-23 14:17:31.130] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:17:34.109] [INFO] console - info: socket.io started
+[2013-12-23 14:17:34.225] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-23 14:17:34.998] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-23 14:17:35.066] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-23 14:18:07.099] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-23 14:18:07.195] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:18:10.151] [INFO] console - info: socket.io started
+[2013-12-23 14:18:10.205] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-23 14:18:11.080] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-23 14:18:11.084] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 09:54:38.196] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 09:54:38.218] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:54:40.720] [INFO] console - info: socket.io started
+[2013-12-24 09:54:40.743] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 09:54:41.151] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 09:54:41.158] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 09:55:27.704] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 09:55:27.783] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:55:29.672] [INFO] console - info: socket.io started
+[2013-12-24 09:55:29.739] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 09:55:30.028] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 09:55:30.030] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 09:56:06.088] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 09:56:06.173] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:56:08.267] [INFO] console - info: socket.io started
+[2013-12-24 09:56:08.420] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 09:56:08.819] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 09:56:08.821] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 09:56:31.012] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 09:56:31.087] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:56:33.245] [INFO] console - info: socket.io started
+[2013-12-24 09:56:33.295] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 09:56:33.713] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 09:56:33.737] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 09:57:43.747] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 09:57:43.837] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:57:46.628] [INFO] console - info: socket.io started
+[2013-12-24 09:57:46.727] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 09:57:47.321] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 09:57:47.323] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 09:59:03.114] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 09:59:03.173] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:59:05.287] [INFO] console - info: socket.io started
+[2013-12-24 09:59:05.394] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 09:59:05.965] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 09:59:05.968] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 10:00:49.772] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 10:00:49.822] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:00:52.592] [INFO] console - info: socket.io started
+[2013-12-24 10:00:52.677] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 10:00:53.153] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 10:00:53.155] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 10:02:12.660] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 10:02:12.733] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:02:14.794] [INFO] console - info: socket.io started
+[2013-12-24 10:02:14.883] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 10:02:15.535] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 10:02:15.541] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 10:03:34.753] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 10:03:34.771] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:03:36.922] [INFO] console - info: socket.io started
+[2013-12-24 10:03:37.054] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 10:03:37.664] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 10:03:37.666] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 10:04:14.364] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 10:04:14.411] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:04:16.662] [INFO] console - info: socket.io started
+[2013-12-24 10:04:16.736] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 10:04:17.123] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 10:04:17.125] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2013-12-24 10:06:35.323] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2013-12-24 10:06:35.395] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:06:38.021] [INFO] console - info: socket.io started
+[2013-12-24 10:06:38.070] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2013-12-24 10:06:38.625] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2013-12-24 10:06:38.627] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 14:43:19.815] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 14:43:19.841] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 14:43:22.824] [INFO] console - info: socket.io started
+[2014-01-08 14:43:22.956] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 14:43:23.704] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 14:43:23.706] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 14:45:51.967] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 14:45:52.072] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 14:45:54.738] [INFO] console - info: socket.io started
+[2014-01-08 14:45:54.777] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1127:5)
+    at Object.exports.listen (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:32:21)
+    at pro.start (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:43:17)
+    at pro.start (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/components/remote.js:54:15)
+    at /Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/util/appUtil.js:84:19
+    at iterate (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+[2014-01-08 14:45:54.827] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 14:45:55.935] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 14:45:55.977] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 14:47:06.970] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 14:47:07.048] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 14:47:09.073] [INFO] console - info: socket.io started
+[2014-01-08 14:47:09.150] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 14:47:09.625] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 14:47:09.627] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 14:49:02.045] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 14:49:02.114] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 14:49:04.680] [INFO] console - info: socket.io started
+[2014-01-08 14:49:04.728] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 14:49:05.441] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 14:49:05.462] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 15:51:22.220] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 15:51:22.321] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 15:51:24.787] [INFO] console - info: socket.io started
+[2014-01-08 15:51:24.882] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 15:51:25.394] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 15:51:25.397] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 15:51:53.976] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 15:51:54.066] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 15:51:56.303] [INFO] console - info: socket.io started
+[2014-01-08 15:51:56.419] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 15:51:57.074] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 15:51:57.076] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 16:03:55.681] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 16:03:55.757] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 16:03:58.062] [INFO] console - info: socket.io started
+[2014-01-08 16:03:58.203] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 16:03:58.663] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 16:03:58.696] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 16:07:11.837] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 16:07:11.910] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 16:07:13.858] [INFO] console - info: socket.io started
+[2014-01-08 16:07:13.935] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 16:07:14.398] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 16:07:14.409] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-08 16:30:43.559] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 16:30:43.580] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 16:30:46.438] [INFO] console - info: socket.io started
+[2014-01-08 16:30:46.556] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 16:30:47.158] [ERROR] pomelo-admin - [31m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/monitorAgent.js] [39mserver "manager-server-1" "manager" register master failed
+[2014-01-08 19:52:55.024] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-08 19:52:55.043] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 19:52:58.424] [INFO] console - info: socket.io started
+[2014-01-08 19:52:58.554] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-08 19:52:59.322] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-08 19:52:59.325] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:15:11.038] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:15:11.134] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:15:14.017] [INFO] console - info: socket.io started
+[2014-01-09 09:15:14.035] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:15:14.990] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:15:14.992] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:16:42.036] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:16:42.120] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:16:44.546] [INFO] console - info: socket.io started
+[2014-01-09 09:16:44.637] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:16:45.311] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:16:45.316] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:22:03.729] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:22:03.799] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:22:07.080] [INFO] console - info: socket.io started
+[2014-01-09 09:22:07.175] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:22:08.207] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:22:08.209] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:29:55.943] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:29:56.021] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:29:58.689] [INFO] console - info: socket.io started
+[2014-01-09 09:29:58.802] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:29:59.603] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:29:59.605] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:33:07.968] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:33:08.059] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:33:10.525] [INFO] console - info: socket.io started
+[2014-01-09 09:33:10.641] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:33:11.358] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:33:11.361] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:36:16.239] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:36:16.323] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:36:18.646] [INFO] console - info: socket.io started
+[2014-01-09 09:36:18.741] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:36:19.351] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:36:19.353] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:43:39.639] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:43:39.708] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:43:42.208] [INFO] console - info: socket.io started
+[2014-01-09 09:43:42.330] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:43:42.857] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:43:42.859] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:45:59.223] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:45:59.241] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:46:02.268] [INFO] console - info: socket.io started
+[2014-01-09 09:46:02.494] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:46:03.181] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:46:03.183] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:50:51.827] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:50:51.897] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:50:54.409] [INFO] console - info: socket.io started
+[2014-01-09 09:50:54.458] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:50:55.171] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:50:55.173] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:56:20.984] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:56:21.058] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:56:23.198] [INFO] console - info: socket.io started
+[2014-01-09 09:56:23.304] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:56:23.953] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:56:23.957] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 09:59:28.214] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 09:59:28.238] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:59:30.606] [INFO] console - info: socket.io started
+[2014-01-09 09:59:30.697] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 09:59:31.220] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 09:59:31.222] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 10:02:23.808] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 10:02:23.944] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 10:02:27.010] [INFO] console - info: socket.io started
+[2014-01-09 10:02:27.081] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1127:5)
+    at Object.exports.listen (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:32:21)
+    at pro.start (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:43:17)
+    at pro.start (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/components/remote.js:54:15)
+    at /Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/util/appUtil.js:84:19
+    at iterate (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+[2014-01-09 10:02:27.172] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 10:02:28.205] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 10:02:28.266] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 10:02:41.121] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 10:02:41.185] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 10:02:43.147] [INFO] console - info: socket.io started
+[2014-01-09 10:02:43.196] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 10:02:43.794] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 10:02:43.796] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 10:05:17.103] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 10:05:17.163] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 10:05:19.243] [INFO] console - info: socket.io started
+[2014-01-09 10:05:19.300] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 10:05:19.837] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 10:05:19.864] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 10:09:13.984] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 10:09:16.557] [INFO] console - info: socket.io started
+[2014-01-09 10:09:16.614] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 10:09:17.228] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 10:09:17.230] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:23:07.662] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:23:09.737] [INFO] console - info: socket.io started
+[2014-01-09 11:23:09.809] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:23:10.387] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:23:10.389] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:23:44.769] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:23:47.230] [INFO] console - info: socket.io started
+[2014-01-09 11:23:47.330] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:23:47.879] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:23:47.957] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:27:03.615] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:27:05.908] [INFO] console - info: socket.io started
+[2014-01-09 11:27:06.031] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:27:06.764] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:27:06.766] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:29:38.781] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:29:41.338] [INFO] console - info: socket.io started
+[2014-01-09 11:29:41.417] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:29:42.092] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:29:42.095] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:30:51.067] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:30:53.685] [INFO] console - info: socket.io started
+[2014-01-09 11:30:53.758] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:30:54.197] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:30:54.274] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:34:01.020] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:34:03.745] [INFO] console - info: socket.io started
+[2014-01-09 11:34:03.872] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:34:04.573] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:34:04.592] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:36:33.848] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:36:36.221] [INFO] console - info: socket.io started
+[2014-01-09 11:36:36.339] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:36:36.980] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:36:36.982] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:37:29.736] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:37:32.430] [INFO] console - info: socket.io started
+[2014-01-09 11:37:32.605] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:37:33.451] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:37:33.453] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:38:32.323] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:38:34.690] [INFO] console - info: socket.io started
+[2014-01-09 11:38:34.834] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:38:35.485] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:38:35.491] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:41:56.601] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:41:59.314] [INFO] console - info: socket.io started
+[2014-01-09 11:41:59.400] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:42:00.199] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:42:00.201] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:42:46.283] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:42:49.282] [INFO] console - info: socket.io started
+[2014-01-09 11:42:49.466] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:42:50.497] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:42:50.499] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:44:05.379] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:44:08.231] [INFO] console - info: socket.io started
+[2014-01-09 11:44:08.326] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:44:09.004] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:44:09.010] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:45:13.813] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:45:16.474] [INFO] console - info: socket.io started
+[2014-01-09 11:45:16.571] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:45:17.295] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:45:17.297] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:47:44.256] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:47:46.624] [INFO] console - info: socket.io started
+[2014-01-09 11:47:46.720] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:47:47.256] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:47:47.266] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:50:43.758] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:50:47.758] [INFO] console - info: socket.io started
+[2014-01-09 11:50:47.851] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:50:48.581] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:50:48.583] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:50:58.324] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:51:00.625] [INFO] console - info: socket.io started
+[2014-01-09 11:51:00.733] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:51:01.419] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:51:01.423] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:51:55.448] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:51:58.031] [INFO] console - info: socket.io started
+[2014-01-09 11:51:58.086] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:51:58.767] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:51:58.810] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:52:55.427] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:52:57.818] [INFO] console - info: socket.io started
+[2014-01-09 11:52:57.955] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:52:58.584] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:52:58.586] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:53:56.600] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:53:59.083] [INFO] console - info: socket.io started
+[2014-01-09 11:53:59.148] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:53:59.883] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:53:59.885] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 11:55:02.528] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 11:55:04.941] [INFO] console - info: socket.io started
+[2014-01-09 11:55:05.055] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 11:55:05.777] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 11:55:05.779] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 13:15:50.503] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 13:15:53.240] [INFO] console - info: socket.io started
+[2014-01-09 13:15:53.375] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 13:15:54.058] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 13:15:54.061] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 13:18:53.575] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 13:18:56.235] [INFO] console - info: socket.io started
+[2014-01-09 13:18:56.286] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 13:18:57.214] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 13:18:57.217] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 13:20:08.545] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 13:20:11.330] [INFO] console - info: socket.io started
+[2014-01-09 13:20:11.434] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "127.0.0.1", 3005
+[2014-01-09 13:20:12.231] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 13:20:12.234] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 13:35:56.788] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 13:35:59.543] [INFO] console - info: socket.io started
+[2014-01-09 13:35:59.731] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "192.168.1.100", 3005
+[2014-01-09 13:36:00.689] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 13:36:00.692] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start
+[2014-01-09 13:36:27.889] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "manager-server-1"
+[2014-01-09 13:36:30.149] [INFO] console - info: socket.io started
+[2014-01-09 13:36:30.229] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "manager", "192.168.1.100", 3005
+[2014-01-09 13:36:30.789] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" enter after start...
+[2014-01-09 13:36:30.792] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"manager-server-1" finish start

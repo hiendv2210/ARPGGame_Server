@@ -1,0 +1,583 @@
+[2013-12-23 14:17:30.904] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-23 14:17:30.932] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:17:31.097] [INFO] console - VLTN
+[2013-12-23 14:17:31.097] [INFO] console - MySQL:[object Object]
+[2013-12-23 14:17:31.564] [INFO] console - [data sync component] load mapping file done.
+[2013-12-23 14:17:34.599] [INFO] console - info: socket.io started
+[2013-12-23 14:17:34.765] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-23 14:17:35.567] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-23 14:17:35.569] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-23 14:18:06.972] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-23 14:18:06.990] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-23 14:18:07.073] [INFO] console - VLTN
+[2013-12-23 14:18:07.074] [INFO] console - MySQL:[object Object]
+[2013-12-23 14:18:07.415] [INFO] console - [data sync component] load mapping file done.
+[2013-12-23 14:18:10.295] [INFO] console - info: socket.io started
+[2013-12-23 14:18:10.465] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-23 14:18:11.289] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-23 14:18:11.291] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-24 09:54:38.052] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 09:54:38.143] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:54:38.224] [INFO] console - VLTN
+[2013-12-24 09:54:38.225] [INFO] console - MySQL:[object Object]
+[2013-12-24 09:54:38.472] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 09:54:40.774] [ERROR] console -  Caught exception: Error: Cannot find module '../../../domain/area/instancePool'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/dangvanhien/ARPG/ARPGGame/game-server/app/servers/area/remote/areaRemote.js:2:20)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+[2013-12-24 09:55:27.541] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 09:55:27.589] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:55:27.650] [INFO] console - VLTN
+[2013-12-24 09:55:27.651] [INFO] console - MySQL:[object Object]
+[2013-12-24 09:55:27.920] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 09:55:29.738] [ERROR] console -  Caught exception: Error: Cannot find module '../../../domain/area/instancePool'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/dangvanhien/ARPG/ARPGGame/game-server/app/servers/area/remote/areaRemote.js:2:20)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+[2013-12-24 09:56:06.054] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 09:56:06.126] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:56:06.189] [INFO] console - VLTN
+[2013-12-24 09:56:06.190] [INFO] console - MySQL:[object Object]
+[2013-12-24 09:56:06.441] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 09:56:08.524] [ERROR] console -  Caught exception: Error: Cannot find module '../../../domain/area/instancePool'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/dangvanhien/ARPG/ARPGGame/game-server/app/servers/area/remote/areaRemote.js:2:20)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+[2013-12-24 09:56:30.973] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 09:56:30.995] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:56:31.078] [INFO] console - VLTN
+[2013-12-24 09:56:31.079] [INFO] console - MySQL:[object Object]
+[2013-12-24 09:56:31.380] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 09:56:33.461] [INFO] console - info: socket.io started
+[2013-12-24 09:56:33.543] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-24 09:56:34.114] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-24 09:56:34.116] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-24 09:57:43.682] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 09:57:43.781] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:57:43.819] [INFO] console - VLTN
+[2013-12-24 09:57:43.819] [INFO] console - MySQL:[object Object]
+[2013-12-24 09:57:44.221] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 09:57:46.895] [INFO] console - info: socket.io started
+[2013-12-24 09:57:47.048] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-24 09:57:47.602] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-24 09:57:47.604] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-24 09:59:02.931] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 09:59:03.016] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 09:59:03.040] [INFO] console - VLTN
+[2013-12-24 09:59:03.041] [INFO] console - MySQL:[object Object]
+[2013-12-24 09:59:03.322] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 09:59:05.470] [INFO] console - info: socket.io started
+[2013-12-24 09:59:05.558] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-24 09:59:06.068] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-24 09:59:06.070] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-24 10:00:49.735] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 10:00:49.799] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:00:49.846] [INFO] console - VLTN
+[2013-12-24 10:00:49.847] [INFO] console - MySQL:[object Object]
+[2013-12-24 10:00:50.110] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 10:00:52.910] [INFO] console - info: socket.io started
+[2013-12-24 10:00:52.990] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-24 10:00:53.691] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-24 10:00:53.694] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-24 10:02:12.523] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 10:02:12.558] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:02:12.617] [INFO] console - VLTN
+[2013-12-24 10:02:12.618] [INFO] console - MySQL:[object Object]
+[2013-12-24 10:02:12.902] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 10:02:14.912] [INFO] console - info: socket.io started
+[2013-12-24 10:02:15.023] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-24 10:02:15.708] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-24 10:02:15.711] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-24 10:03:34.842] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 10:03:34.887] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:03:34.933] [INFO] console - VLTN
+[2013-12-24 10:03:34.934] [INFO] console - MySQL:[object Object]
+[2013-12-24 10:03:35.202] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 10:03:37.554] [INFO] console - info: socket.io started
+[2013-12-24 10:03:37.731] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-24 10:03:38.335] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-24 10:03:38.337] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-24 10:04:14.295] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 10:04:14.355] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:04:14.365] [INFO] console - VLTN
+[2013-12-24 10:04:14.366] [INFO] console - MySQL:[object Object]
+[2013-12-24 10:04:14.647] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 10:04:16.867] [INFO] console - info: socket.io started
+[2013-12-24 10:04:16.952] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-24 10:04:17.396] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-24 10:04:17.398] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2013-12-24 10:06:35.149] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2013-12-24 10:06:35.251] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2013-12-24 10:06:35.261] [INFO] console - VLTN
+[2013-12-24 10:06:35.262] [INFO] console - MySQL:[object Object]
+[2013-12-24 10:06:35.671] [INFO] console - [data sync component] load mapping file done.
+[2013-12-24 10:06:38.172] [INFO] console - info: socket.io started
+[2013-12-24 10:06:38.283] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2013-12-24 10:06:38.830] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2013-12-24 10:06:38.833] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 14:43:19.489] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 14:43:19.585] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 14:43:19.618] [INFO] console - VLTN
+[2014-01-08 14:43:19.619] [INFO] console - MySQL:[object Object]
+[2014-01-08 14:43:20.111] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 14:43:22.845] [INFO] console - info: socket.io started
+[2014-01-08 14:43:22.951] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 14:43:23.743] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 14:43:23.745] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 14:45:51.871] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 14:45:51.986] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 14:45:52.002] [INFO] console - VLTN
+[2014-01-08 14:45:52.003] [INFO] console - MySQL:[object Object]
+[2014-01-08 14:45:52.314] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 14:45:55.004] [INFO] console - info: socket.io started
+[2014-01-08 14:45:55.023] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1127:5)
+    at Object.exports.listen (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:32:21)
+    at pro.start (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:43:17)
+    at pro.start (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/components/remote.js:54:15)
+    at /Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/util/appUtil.js:84:19
+    at iterate (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+[2014-01-08 14:45:55.190] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 14:45:56.118] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 14:45:56.141] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 14:47:06.776] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 14:47:06.861] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 14:47:06.888] [INFO] console - VLTN
+[2014-01-08 14:47:06.888] [INFO] console - MySQL:[object Object]
+[2014-01-08 14:47:07.225] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 14:47:09.174] [INFO] console - info: socket.io started
+[2014-01-08 14:47:09.271] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 14:47:09.632] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 14:47:09.634] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 14:49:01.682] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 14:49:01.812] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 14:49:01.859] [INFO] console - VLTN
+[2014-01-08 14:49:01.860] [INFO] console - MySQL:[object Object]
+[2014-01-08 14:49:02.182] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 14:49:04.597] [INFO] console - info: socket.io started
+[2014-01-08 14:49:04.723] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 14:49:05.463] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 14:49:05.465] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 15:51:22.255] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 15:51:22.341] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 15:51:22.383] [INFO] console - VLTN
+[2014-01-08 15:51:22.384] [INFO] console - MySQL:[object Object]
+[2014-01-08 15:51:22.698] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 15:51:25.228] [INFO] console - info: socket.io started
+[2014-01-08 15:51:25.386] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 15:51:25.747] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 15:51:25.749] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 15:51:53.725] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 15:51:53.786] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 15:51:53.795] [INFO] console - VLTN
+[2014-01-08 15:51:53.797] [INFO] console - MySQL:[object Object]
+[2014-01-08 15:51:54.125] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 15:51:56.267] [INFO] console - info: socket.io started
+[2014-01-08 15:51:56.295] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 15:51:56.992] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 15:51:57.019] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 16:03:55.679] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 16:03:55.710] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 16:03:55.811] [INFO] console - VLTN
+[2014-01-08 16:03:55.813] [INFO] console - MySQL:[object Object]
+[2014-01-08 16:03:56.069] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 16:03:58.456] [INFO] console - info: socket.io started
+[2014-01-08 16:03:58.571] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 16:03:59.232] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 16:03:59.236] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 16:07:11.816] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 16:07:11.916] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 16:07:11.951] [INFO] console - VLTN
+[2014-01-08 16:07:11.951] [INFO] console - MySQL:[object Object]
+[2014-01-08 16:07:12.231] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 16:07:14.102] [INFO] console - info: socket.io started
+[2014-01-08 16:07:14.155] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 16:07:14.744] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 16:07:14.746] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-08 16:30:43.522] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 16:30:43.546] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 16:30:43.677] [INFO] console - VLTN
+[2014-01-08 16:30:43.678] [INFO] console - MySQL:[object Object]
+[2014-01-08 16:30:44.059] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 16:30:46.829] [INFO] console - info: socket.io started
+[2014-01-08 16:30:47.035] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 16:30:47.648] [ERROR] pomelo-admin - [31m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/monitorAgent.js] [39mserver "instance-server-1" "area" register master failed
+[2014-01-08 19:52:54.789] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-08 19:52:54.933] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-08 19:52:54.999] [INFO] console - VLTN
+[2014-01-08 19:52:54.999] [INFO] console - MySQL:[object Object]
+[2014-01-08 19:52:55.441] [INFO] console - [data sync component] load mapping file done.
+[2014-01-08 19:52:58.938] [INFO] console - info: socket.io started
+[2014-01-08 19:52:59.007] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-08 19:52:59.812] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-08 19:52:59.925] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:15:10.589] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:15:10.768] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:15:10.803] [INFO] console - VLTN
+[2014-01-09 09:15:10.804] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:15:11.254] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:15:13.845] [INFO] console - info: socket.io started
+[2014-01-09 09:15:14.001] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:15:14.665] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:15:14.669] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:16:41.816] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:16:41.941] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:16:41.950] [INFO] console - VLTN
+[2014-01-09 09:16:41.950] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:16:42.364] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:16:44.670] [INFO] console - info: socket.io started
+[2014-01-09 09:16:44.775] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:16:45.491] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:16:45.496] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:22:03.549] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:22:03.614] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:22:03.685] [INFO] console - VLTN
+[2014-01-09 09:22:03.686] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:22:04.029] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:22:07.448] [INFO] console - info: socket.io started
+[2014-01-09 09:22:07.610] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:22:08.479] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:22:08.482] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:29:55.823] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:29:55.843] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:29:55.911] [INFO] console - VLTN
+[2014-01-09 09:29:55.911] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:29:56.285] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:29:59.034] [INFO] console - info: socket.io started
+[2014-01-09 09:29:59.198] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:29:59.926] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:29:59.931] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:33:07.812] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:33:07.882] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:33:07.891] [INFO] console - VLTN
+[2014-01-09 09:33:07.893] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:33:08.228] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:33:10.766] [INFO] console - info: socket.io started
+[2014-01-09 09:33:10.862] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:33:11.566] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:33:11.568] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:36:16.044] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:36:16.129] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:36:16.165] [INFO] console - VLTN
+[2014-01-09 09:36:16.166] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:36:16.543] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:36:18.818] [INFO] console - info: socket.io started
+[2014-01-09 09:36:18.922] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:36:19.575] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:36:19.577] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:43:39.579] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:43:39.652] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:43:39.661] [INFO] console - VLTN
+[2014-01-09 09:43:39.662] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:43:40.037] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:43:42.477] [INFO] console - info: socket.io started
+[2014-01-09 09:43:42.550] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:43:43.239] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:43:43.242] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:45:59.065] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:45:59.189] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:45:59.201] [INFO] console - VLTN
+[2014-01-09 09:45:59.201] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:45:59.593] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:46:02.700] [INFO] console - info: socket.io started
+[2014-01-09 09:46:02.838] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:46:03.530] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:46:03.534] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:50:51.680] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:50:51.741] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:50:51.797] [INFO] console - VLTN
+[2014-01-09 09:50:51.798] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:50:52.079] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:50:54.528] [INFO] console - info: socket.io started
+[2014-01-09 09:50:54.667] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:50:55.557] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:50:55.559] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:56:20.989] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:56:21.084] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:56:21.132] [INFO] console - VLTN
+[2014-01-09 09:56:21.133] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:56:21.445] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:56:23.710] [INFO] console - info: socket.io started
+[2014-01-09 09:56:23.849] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:56:24.577] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:56:24.580] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 09:59:28.153] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 09:59:28.234] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 09:59:28.280] [INFO] console - VLTN
+[2014-01-09 09:59:28.281] [INFO] console - MySQL:[object Object]
+[2014-01-09 09:59:28.590] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 09:59:31.031] [INFO] console - info: socket.io started
+[2014-01-09 09:59:31.182] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 09:59:31.892] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 09:59:31.894] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 10:02:23.949] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 10:02:24.074] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 10:02:24.138] [INFO] console - VLTN
+[2014-01-09 10:02:24.138] [INFO] console - MySQL:[object Object]
+[2014-01-09 10:02:24.517] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 10:02:27.477] [INFO] console - info: socket.io started
+[2014-01-09 10:02:27.482] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1127:5)
+    at Object.exports.listen (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:32:21)
+    at pro.start (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:43:17)
+    at pro.start (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/components/remote.js:54:15)
+    at /Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/util/appUtil.js:84:19
+    at iterate (/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+[2014-01-09 10:02:27.749] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 10:02:28.589] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 10:02:28.591] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 10:02:40.928] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 10:02:41.019] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 10:02:41.030] [INFO] console - VLTN
+[2014-01-09 10:02:41.031] [INFO] console - MySQL:[object Object]
+[2014-01-09 10:02:41.363] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 10:02:43.315] [INFO] console - info: socket.io started
+[2014-01-09 10:02:43.398] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 10:02:44.036] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 10:02:44.044] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 10:05:16.992] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 10:05:17.068] [INFO] console - /Users/dangvanhien/ARPG/ARPGGame/game-server
+[2014-01-09 10:05:17.082] [INFO] console - VLTN
+[2014-01-09 10:05:17.083] [INFO] console - MySQL:[object Object]
+[2014-01-09 10:05:17.403] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 10:05:19.416] [INFO] console - info: socket.io started
+[2014-01-09 10:05:19.493] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 10:05:20.067] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 10:05:20.071] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 10:09:13.825] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 10:09:13.952] [INFO] console - VLTN
+[2014-01-09 10:09:13.953] [INFO] console - MySQL:[object Object]
+[2014-01-09 10:09:14.424] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 10:09:16.811] [INFO] console - info: socket.io started
+[2014-01-09 10:09:16.915] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 10:09:17.562] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 10:09:17.564] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:23:07.655] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:23:07.738] [INFO] console - VLTN
+[2014-01-09 11:23:07.760] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:23:08.013] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:23:09.926] [INFO] console - info: socket.io started
+[2014-01-09 11:23:10.005] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:23:10.600] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:23:10.602] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:23:44.455] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:23:44.617] [INFO] console - VLTN
+[2014-01-09 11:23:44.618] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:23:44.903] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:23:47.331] [INFO] console - info: socket.io started
+[2014-01-09 11:23:47.387] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:23:48.081] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:23:48.083] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:27:03.634] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:27:03.749] [INFO] console - VLTN
+[2014-01-09 11:27:03.752] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:27:03.996] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:27:06.332] [INFO] console - info: socket.io started
+[2014-01-09 11:27:06.403] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:27:06.920] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:27:06.922] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:29:38.663] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:29:38.750] [INFO] console - VLTN
+[2014-01-09 11:29:38.797] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:29:39.047] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:29:41.417] [INFO] console - info: socket.io started
+[2014-01-09 11:29:41.498] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:29:42.096] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:29:42.126] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:30:50.934] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:30:51.103] [INFO] console - VLTN
+[2014-01-09 11:30:51.104] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:30:51.437] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:30:53.797] [INFO] console - info: socket.io started
+[2014-01-09 11:30:53.902] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:30:54.508] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:30:54.510] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:34:00.821] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:34:00.953] [INFO] console - VLTN
+[2014-01-09 11:34:00.967] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:34:01.278] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:34:04.070] [INFO] console - info: socket.io started
+[2014-01-09 11:34:04.135] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:34:04.794] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:34:04.795] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:36:33.853] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:36:33.880] [INFO] console - VLTN
+[2014-01-09 11:36:33.957] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:36:34.198] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:36:36.517] [INFO] console - info: socket.io started
+[2014-01-09 11:36:36.647] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:36:37.305] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:36:37.307] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:37:29.611] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:37:29.699] [INFO] console - VLTN
+[2014-01-09 11:37:29.700] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:37:30.071] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:37:32.707] [INFO] console - info: socket.io started
+[2014-01-09 11:37:32.797] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:37:33.737] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:37:33.739] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:38:32.290] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:38:32.385] [INFO] console - VLTN
+[2014-01-09 11:38:32.441] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:38:32.743] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:38:35.057] [INFO] console - info: socket.io started
+[2014-01-09 11:38:35.109] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:38:36.086] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:38:36.089] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:41:56.481] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:41:56.603] [INFO] console - VLTN
+[2014-01-09 11:41:56.611] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:41:56.930] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:41:59.588] [INFO] console - info: socket.io started
+[2014-01-09 11:41:59.651] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:42:00.523] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:42:00.550] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:42:46.129] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:42:46.240] [INFO] console - VLTN
+[2014-01-09 11:42:46.245] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:42:46.596] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:42:49.602] [INFO] console - info: socket.io started
+[2014-01-09 11:42:49.625] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:42:50.779] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:42:50.782] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:44:05.451] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:44:05.603] [INFO] console - VLTN
+[2014-01-09 11:44:05.670] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:44:06.037] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:44:08.614] [INFO] console - info: socket.io started
+[2014-01-09 11:44:08.716] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:44:09.499] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:44:09.501] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:45:13.787] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:45:13.866] [INFO] console - VLTN
+[2014-01-09 11:45:13.867] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:45:14.159] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:45:16.743] [INFO] console - info: socket.io started
+[2014-01-09 11:45:16.819] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:45:17.627] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:45:17.630] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:47:44.108] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:47:44.184] [INFO] console - VLTN
+[2014-01-09 11:47:44.186] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:47:44.468] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:47:46.708] [INFO] console - info: socket.io started
+[2014-01-09 11:47:46.807] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:47:47.392] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:47:47.398] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:50:43.697] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:50:43.784] [INFO] console - VLTN
+[2014-01-09 11:50:43.834] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:50:44.101] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:50:48.245] [INFO] console - info: socket.io started
+[2014-01-09 11:50:48.303] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:50:48.890] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:50:48.892] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:50:58.288] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:50:58.359] [INFO] console - VLTN
+[2014-01-09 11:50:58.391] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:50:58.685] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:51:00.923] [INFO] console - info: socket.io started
+[2014-01-09 11:51:00.998] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:51:01.712] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:51:01.714] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:51:55.303] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:51:55.441] [INFO] console - VLTN
+[2014-01-09 11:51:55.442] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:51:55.738] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:51:58.107] [INFO] console - info: socket.io started
+[2014-01-09 11:51:58.181] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:51:58.894] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:51:58.897] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:52:55.324] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:52:55.396] [INFO] console - VLTN
+[2014-01-09 11:52:55.446] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:52:55.725] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:52:58.214] [INFO] console - info: socket.io started
+[2014-01-09 11:52:58.268] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:52:59.020] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:52:59.023] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:53:56.465] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:53:56.501] [INFO] console - VLTN
+[2014-01-09 11:53:56.503] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:53:56.808] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:53:59.111] [INFO] console - info: socket.io started
+[2014-01-09 11:53:59.144] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:53:59.896] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:53:59.937] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 11:55:02.432] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 11:55:02.494] [INFO] console - VLTN
+[2014-01-09 11:55:02.525] [INFO] console - MySQL:[object Object]
+[2014-01-09 11:55:02.880] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 11:55:05.141] [INFO] console - info: socket.io started
+[2014-01-09 11:55:05.235] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 11:55:06.365] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 11:55:06.367] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 13:15:50.341] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 13:15:50.458] [INFO] console - VLTN
+[2014-01-09 13:15:50.460] [INFO] console - MySQL:[object Object]
+[2014-01-09 13:15:50.776] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 13:15:53.384] [INFO] console - info: socket.io started
+[2014-01-09 13:15:53.426] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 13:15:54.089] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 13:15:54.091] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 13:18:53.350] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 13:18:53.424] [INFO] console - VLTN
+[2014-01-09 13:18:53.426] [INFO] console - MySQL:[object Object]
+[2014-01-09 13:18:53.755] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 13:18:56.362] [INFO] console - info: socket.io started
+[2014-01-09 13:18:56.444] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 13:18:57.339] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 13:18:57.341] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 13:20:08.284] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 13:20:08.440] [INFO] console - VLTN
+[2014-01-09 13:20:08.441] [INFO] console - MySQL:[object Object]
+[2014-01-09 13:20:08.867] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 13:20:11.497] [INFO] console - info: socket.io started
+[2014-01-09 13:20:11.570] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "127.0.0.1", 3005
+[2014-01-09 13:20:12.347] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 13:20:12.350] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 13:35:56.457] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 13:35:56.487] [INFO] console - VLTN
+[2014-01-09 13:35:56.488] [INFO] console - MySQL:[object Object]
+[2014-01-09 13:35:56.977] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 13:35:59.692] [INFO] console - info: socket.io started
+[2014-01-09 13:35:59.712] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "192.168.1.100", 3005
+[2014-01-09 13:36:00.677] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 13:36:00.679] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start
+[2014-01-09 13:36:27.598] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "instance-server-1"
+[2014-01-09 13:36:27.743] [INFO] console - VLTN
+[2014-01-09 13:36:27.744] [INFO] console - MySQL:[object Object]
+[2014-01-09 13:36:28.021] [INFO] console - [data sync component] load mapping file done.
+[2014-01-09 13:36:30.108] [INFO] console - info: socket.io started
+[2014-01-09 13:36:30.133] [INFO] pomelo-admin - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "area", "192.168.1.100", 3005
+[2014-01-09 13:36:30.858] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" enter after start...
+[2014-01-09 13:36:30.860] [INFO] pomelo - [32m[/Users/dangvanhien/ARPG/ARPGGame/game-server/node_modules/pomelo/lib/application.js] [39m"instance-server-1" finish start

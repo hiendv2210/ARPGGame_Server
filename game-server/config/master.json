@@ -1,0 +1,10 @@
+  {
+  	"development":{
+  		"id": "master-server-1", "host": "192.168.1.100", "port": 3005
+      },
+
+  	"production":
+      {
+        "id": "master-server-1", "host": "192.168.1.100", "port": 3005
+      }
+  }

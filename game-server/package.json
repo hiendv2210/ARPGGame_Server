@@ -1,0 +1,10 @@
+{
+	"name": "chatofpomelo",
+	"version": "0.0.1",
+	"private": false,
+	"dependencies": {
+		"pomelo": "0.7.0",
+		"log4js": "0.6.7",
+		"crc": "0.2.0"
+	}
+}
