@@ -1,17 +1,17 @@
 {
 	"development": {
-	  	"host" : "127.0.0.1",
+	  	"host" : "182.48.50.239",
 		"port" : "3306",
 		"database" : "TankGame",
 		"user" : "root",
-		"password" : "root"
+		"password" : "oneofthem0107"
 	},
 
 	"production": {
-	  "host" : "127.0.0.1",
+	  "host" : "182.48.50.239",
 		"port" : "3306",
 		"database" : "TankGame",
 		"user" : "root",
-		"password" : "root"
+		"password" : "oneofthem0107"
 	}
 }
