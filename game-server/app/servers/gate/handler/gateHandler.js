@@ -20,7 +20,6 @@ var handler = Handler.prototype;
  */
 handler.queryEntry = function(msg, session, next) {
 
-	console.log("queryEntry");
 	var uid = msg.uid;
 	if(!uid) {
 		next(null, {

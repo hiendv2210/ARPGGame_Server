@@ -65,8 +65,7 @@ handler.getToken = function( msg,session,next ){
  */
  
 handler.enter = function(msg, session, next) {
-	
-	console.log("handler enter");
+
 	var token = msg.token, self = this;
     var typeGame = msg.typeGame;
     var typeWeapon = msg.typeWeapon;
@@ -80,13 +79,10 @@ handler.enter = function(msg, session, next) {
 	
 	async.waterfall([
 		function(cb) {
-			console.log("authRemote");
 			// auth token
 			self.app.rpc.auth.authRemote.auth(session, token, cb);
 			
 		}, function(code, user, cb) {
-			// query player info by user id
-            console.log("Code:"+code);
 			if(code !== Code.OK) {
 				next(null, {code: code});
 				return;
@@ -98,11 +94,8 @@ handler.enter = function(msg, session, next) {
 			}
 			
 			uid = user.id;
-			console.log("getPlayersByUid");
 			userDao.getPlayersByUid(user.id, cb);
 		}, function(res, cb) {
-			// generate session and register chat status
-			console.log("Genearate session");
 			players = res;
 			self.app.get('sessionService').kick(uid, cb);
 
@@ -115,34 +108,31 @@ handler.enter = function(msg, session, next) {
 				next(null, {code: Code.OK});
 				return;
 			}
-
 			player = players[0];
-
-			//session.set('serverId', self.app.get('areaIdMap')[player.areaId]);
 			session.set('playername', player.username);
 			session.set('playerId', player.id);
+            session.set('typeGame', typeGame);
 			session.on('closed', onUserLeave.bind(null, self.app));
 			session.pushAll(cb);
 		}, function(cb) {
-			console.log("Room Remote");
-			/*var code = self.app.rpc.chat.chatRemote.add(session, player.userId, player.name,
-				channelUtil.getGlobalChannelName(), cb);   */
             self.app.rpc.room.roomRemote.add( session,typeGame, player.id, player.username, typeWeapon , cb );
-
-
 
 		},function(rs , cb){
 
-            console.log("Code:"+rs["channelName"]);
             session.set('channelName', rs["channelName"]);
             session.push('channelName', function(err) {
                 if(err) {
-                    console.error('set rid for session service failed! error is : %j', err.stack);
+                    console.error('channelName: %j', err.stack);
+                }
+            });
+            session.set('numberPlayer', rs["noPlayer"]);
+            session.push('numberPlayer', function(err) {
+                if(err) {
+                    console.error('numberPlayer: %j', err.stack);
                 }
             });
 
-            next(null,{code:rs["code"]});
-            //next(null, {code: Code.OK});
+            next(null,{code:rs["code"], room: rs["room"] , noPlayer : rs["noPlayer"]});
         }
 	], function(err) {
 		if(err) {
@@ -152,10 +142,6 @@ handler.enter = function(msg, session, next) {
 
     });
 };
-
-
-
-
 
 /**
  * User log out handler
@@ -168,5 +154,8 @@ var onUserLeave = function(app, session) {
 	if(!session || !session.uid) {
 		return;
 	}
-	app.rpc.chat.chatRemote.kick(session, session.uid, app.get('serverId'), session.get('rid'), null);
+
+
+	//app.rpc.chat.chatRemote.kick(session, session.uid, app.get('serverId'), session.get('rid'), null);
+    app.rpc.room.roomRemote.kick(session,session.uid, session.get("numberPlayer"),session.get("channelName"),null);
 };

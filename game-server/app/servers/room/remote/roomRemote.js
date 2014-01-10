@@ -1,18 +1,18 @@
 module.exports = function(app) {
-	return new ChatRemote(app, app.get('roomService'));
+	return new RoomRemote(app, app.get('roomService'));
 };
 
-var ChatRemote = function(app, chatService) {
+var RoomRemote = function(app, roomService) {
 	this.app = app;
-	this.roomService = chatService;
+	this.roomService = roomService;
 };
 
 /**
  *	Add player into channel
  */
-ChatRemote.prototype.add = function(type,uid, playerName, typeWeapon, cb) {
+RoomRemote.prototype.add = function(type,uid, playerName, typeWeapon, cb) {
     console.log("Roomservice:"+this.roomService);
-	var rs = this.roomService.add(type,uid, playerName);
+	var rs = this.roomService.add(type,typeWeapon,uid, playerName);
 	cb(null, rs);
 };
 
@@ -21,8 +21,9 @@ ChatRemote.prototype.add = function(type,uid, playerName, typeWeapon, cb) {
  * uid
  * channelName
  */
-ChatRemote.prototype.leave =function(uid, channelName, cb){
-	this.roomService(uid, channelName);
+
+RoomRemote.prototype.leave =function(uid, channelName, cb){
+
 	cb();
 };
 
@@ -30,7 +31,7 @@ ChatRemote.prototype.leave =function(uid, channelName, cb){
  * kick out user
  *
  */
-ChatRemote.prototype.kick = function(uid, cb){
-	this.roomService.kick(uid);
+RoomRemote.prototype.kick = function(uid, numberPlayer, currentChannelName, cb){
+	this.roomService.kick(uid,numberPlayer,currentChannelName);
 	cb();
 };

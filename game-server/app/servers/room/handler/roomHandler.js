@@ -7,75 +7,79 @@ var consts = require('../../../consts/consts');
 var pomelo = require('pomelo');
 
 module.exports = function(app) {
-  return new ChannelHandler(app, app.get('chatService'));
+  return new ChannelHandler(app, app.get('roomService'));
 };
 
-var ChannelHandler = function(app, chatService) {
+var ChannelHandler = function(app, roomServices) {
   this.app = app;
-  this.chatService = chatService;
+  this.roomService = roomServices;
 };
-
-function setContent(str) {
-  str = str.replace(/<\/?[^>]*>/g,'');
-  str = str.replace(/[ | ]*\n/g,'\n');
-  return str.replace(/\n[\s| | ]*\r/g,'\n');
-}
 
 ChannelHandler.prototype.send = function(msg, session, next) {
-  var scope, content, message, channelName, uid, code;
-  var playerId = session.get('playerId');
-  uid = session.uid;
-  scope = msg.scope;
-  channelName = getChannelName(msg);
-  utils.myPrint('channelName = ', channelName);
-  msg.content = setContent(msg.content);
-  content = {playerId: playerId, uid: uid, content: msg.content, scope: scope, kind: msg.kind || 0, from: msg.from};
-  if (scope !== SCOPE.PRI) {
-    utils.myPrint('ByChannel ~ msg = ', JSON.stringify(msg));
-    utils.myPrint('ByChannel ~ scope = ', scope);
-    utils.myPrint('ByChannel ~ content = ', JSON.stringify(content));
-    utils.myPrint('ByChannel ~ msg.teamId = ', msg.teamId);
-    if (scope === SCOPE.TEAM) {
-      if (msg.teamId > consts.TEAM.AREA_ID_NONE) {
-        var args = {teamId: msg.teamId, content: content};
-        utils.myPrint('ByChannel ~ args = ', JSON.stringify(args));
-        pomelo.app.rpc.manager.teamRemote.chatInTeam(null, args, function(_, res) {
-          code = res.results ? Code.OK : Code.FAIL;
-          next(null, {code: code});
-        });
-      } else {
-        next(null, {code: Code.FAIL});
-      }
-    } else {
-      this.chatService.pushByChannel(channelName, content, function(err, res) {
-        if(err) {
-          logger.error(err.stack);
-          code = Code.FAIL;
-        } else if(res){
-          code = res;
-        } else {
-          code = Code.OK;
-        }
 
-        next(null, {code: code});
-      });
-    }
-  } else {
-    utils.myPrint('Private ~ scope = ', scope);
-    utils.myPrint('Private ~ content = ', JSON.stringify(content));
-    this.chatService.pushByPlayerName(msg.toName, content, function(err, res) {
-      if(err) {
-        logger.error(err.stack);
-        code = Code.FAIL;
-      } else if(res){
-        code = res;
-      } else {
-        code = Code.OK;
-      }
-      next(null, {code: code});
-    });
-  }
+
+
+
+
 };
+
+ChannelHandler.prototype.getBossInfo = function(msg, session, next) {
+
+       var channelService = this.app.get('channelService');
+       var channelName = session.get("channelName");
+
+       var bossInfo = this.roomService.getBossInfo( channelName, session.get("typeGame") );
+
+
+       var param = {
+           route: 'onBossInfo',
+           msg: bossInfo
+       }
+       console.log("ChannelName:"+ channelName);
+       var channel = channelService.getChannel( channelName ,false);
+       if(channel){
+           channel.pushMessage(param);
+       }
+       else console.log("Not exits Channel");
+
+       next(null,{code:Code.OK});
+
+};
+
+ChannelHandler.prototype.finishBossAttack = function(msg,session,next){
+     var roomName = session.get("channelName");
+     var type = session.get("typeGame");
+     var bossInfo = this.roomService.startBossAttack(roomName,type);
+
+     var param = {
+         route : 'onStartBossAttack',
+         msg: bossInfo
+     }
+
+    var channel = this.app.get('channelService').getChannel( roomName ,false);
+    if(channel){
+        channel.pushMessage(param);
+    }
+    next(null,{ code: Code.OK });
+}
+
+
+ChannelHandler.prototype.updateBossHP = function(msg, session, next){
+    var reduceHP = msg.reduceHP;
+    var bossName = msg.bossName;
+    this.roomService.updateBossHP(session.get("channelName"),session.get("typeGame"),bossName,reduceHP);
+    next(null,{code:Code.OK});
+}
+
+
+
+
+
+
+var startBossAttack = function( roomName,type ){
+    return this.roomService.startBossAttack(roomName,type);
+}
+
 
 var getChannelName = function(msg){
   var scope = msg.scope;

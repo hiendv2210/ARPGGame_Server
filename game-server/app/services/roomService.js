@@ -6,7 +6,6 @@
  * To change this template use File | Settings | File Templates.
  */
 
-
 var Code = require('../../../shared/code');
 var utils = require('../util/utils');
 var dispatcher = require('../util/dispatcher');
@@ -20,6 +19,7 @@ var RoomService = function(app) {
     this.app = app;
     this.roomBlankList = {};
     this.roomLightList = {};
+    this.typeRoom = {};
     this.numberInChanel = {};
 
 };
@@ -34,9 +34,7 @@ module.exports = RoomService;
  * @param {String} channelName channel name
  * @return {Number} see code.js
  */
-RoomService.prototype.add = function(typeGame ,uid, playerName) {
-
-    console.log("RoomService:"+ playerName);
+RoomService.prototype.add = function(typeGame,typeWeapon,uid, playerName) {
 
     var isCreatedRoom = false;
 
@@ -62,9 +60,11 @@ RoomService.prototype.add = function(typeGame ,uid, playerName) {
 
     if(!channel) {
         channel = this.app.get('channelService').createChannel(currentChannelName);
+        console.log("Create ChannelName:"+currentChannelName);
         isCreatedRoom = true;
     }
     else if(channel && this.numberInChanel[currentChannelName] == 2){
+        console.log("Create ChannelName:"+currentChannelName);
         currentChanel += 1;
         isCreatedRoom = true;
         currentChannelName = channelName + currentChanel;
@@ -73,30 +73,43 @@ RoomService.prototype.add = function(typeGame ,uid, playerName) {
 
     if(!this.numberInChanel[currentChannelName]) this.numberInChanel[currentChannelName] = 0;
     // Add to chanel
+
     channel.add(uid, sid);
-
-    this.numberInChanel[currentChannelName] += 1;
-
 
     var opts = { type: typeGame };
 
     if( typeGame == 1){
         this.currentBlankChannel = currentChanel;
-        if( isCreatedRoom && this.roomBlankList[currentChannelName] == null )
+        if( isCreatedRoom && this.roomBlankList[currentChannelName] == null ){
             this.roomBlankList[currentChannelName] = new Room(opts);
+            this.roomBlankList[currentChannelName].updateStage();
+            this.roomBlankList[currentChannelName].createPlayer(this.numberInChanel[currentChannelName],typeWeapon,playerName);
+        }
+
     }
     else {
         this.currentLightChannel = currentChanel;
-        if( isCreatedRoom && this.roomBlankList[currentChannelName] == null )
-            this.roomBlankList[channelName] = new Room(opts);
+        if( isCreatedRoom && this.roomLightList[currentChannelName] == null ){
+            this.roomLightList[currentChannelName] = new Room(opts);
+            this.roomLightList[currentChannelName].updateStage();
+            this.roomLightList[currentChannelName].createPlayer(this.numberInChanel[currentChannelName],typeWeapon,playerName);
+        }
     }
 
-    //UpdatePlayer();
-
-    console.log("Den day roi");
+    this.numberInChanel[currentChannelName] += 1;
+    if( this.numberInChanel[currentChannelName] == 2 ){
+       this.startGame(uid);
+    }
+    this.typeRoom[currentChannelName] = typeGame;
     var rs = {};
     rs["code"] = Code.OK;
     rs["channelName"] = currentChannelName;
+    if( typeGame == 1){
+        rs["room"] = this.roomBlankList[currentChannelName];
+    }
+    else rs["room"] = this.roomLightList[currentChannelName];
+
+    rs["noPlayer"] = this.numberInChanel[currentChannelName];
     return rs;
 };
 
@@ -124,22 +137,38 @@ RoomService.prototype.leave = function(uid, channelName) {
  *
  * @param  {String} uid user id
  */
-RoomService.prototype.kick = function(uid) {
-    var channelNames = this.channelMap[uid];
-    var record = this.uidMap[uid];
+RoomService.prototype.kick = function(uid,numberPlayer,currentChannelName) {
 
-    if(channelNames && record) {
-        // remove user from channels
-        var channel;
-        for(var name in channelNames) {
-            channel = this.app.get('channelService').getChannel(name);
-            if(channel) {
-                channel.leave(uid, record.sid);
-            }
-        }
+    //var channelNames = this.channelMap[uid];
+
+    var channel = this.app.get('channelService').getChannel(currentChannelName);
+    if(channel) {
+        var sid = getSidByUid(uid, this.app);
+        channel.leave(uid, sid);
+        console.log("Leave channel");
+        var param = {
+            route: 'onLeave',
+            code: 'OK'
+        };
+        channel.pushMessage(param);
     }
 
-    clearRecords(this, uid);
+    // Pull all chanel leave
+
+    var type = this.typeRoom[currentChannelName];
+
+    delete this.typeRoom[currentChannelName];
+
+    if( type == 1){
+         // Remove
+        this.roomBlankList[currentChannelName].removePlayer(numberPlayer);
+    }
+    else {
+        this.roomLightList[currentChannelName].removePlayer(numberPlayer);
+    }
+
+    if(this.numberInChanel[currentChannelName]) this.numberInChanel[currentChannelName] = 2;
+
 };
 
 /**
@@ -175,6 +204,49 @@ RoomService.prototype.pushByPlayerName = function(playerName, msg, cb) {
 
     this.app.get('channelService').pushMessageByUids(Event.chat, msg, [{uid: record.uid, sid: record.sid}], cb);
 };
+
+RoomService.prototype.getPlayerNameTarget = function( currentRoomName, type ){
+    var room = null;
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].getPlayerNameTarget();
+    }
+    else {
+        return this.roomLightList[currentRoomName].getPlayerNameTarget();
+    }
+
+};
+
+RoomService.prototype.getBossInfo = function(currentRoomName,type){
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].getRoomOfBoosInfo();
+    }
+    else {
+        return this.roomLightList[currentRoomName].getRoomOfBoosInfo();
+    }
+};
+
+RoomService.prototype.startBossAttack = function(currentRoomName,type){
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].getBossInfoBeforeStartAttack();
+    }
+    else {
+        return this.roomLightList[currentRoomName].getBossInfoBeforeStartAttack();
+    }
+};
+
+RoomService.prototype.updateBossHP = function(currentRoomName, type, bossName, reduceHP){
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].updateBossCurrentHP(bossName, reduceHP);
+    }
+    else {
+        return this.roomLightList[currentRoomName].updateBossCurrentHP(bossName, reduceHP);
+    }
+}
+
+
 
 /**
  * Cehck whether the user has already in the channel
@@ -236,3 +308,19 @@ var getSidByUid = function(uid, app) {
     return null;
 };
 
+/*
+ *  Push all player start game
+ * */
+
+var startGame = function( uid,channelName ){
+    var channel = this.app.get('channelService').getChannel(currentChannelName);
+    if(channel) {
+        var sid = getSidByUid(uid, this.app);
+        channel.leave(uid, sid);
+        var param = {
+            route: 'onStart',
+            code: 'OK'
+        };
+        channel.pushMessage(param);
+    }
+};
