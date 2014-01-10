@@ -39,6 +39,7 @@ RoomService.prototype.add = function(typeGame,typeWeapon,uid, playerName) {
     var isCreatedRoom = false;
 
     var sid = getSidByUid(uid, this.app);
+    console.log(uid);
 
     if(!sid) {
         return Code.CHAT.FA_UNKNOWN_CONNECTOR;
@@ -97,9 +98,9 @@ RoomService.prototype.add = function(typeGame,typeWeapon,uid, playerName) {
     }
 
     this.numberInChanel[currentChannelName] += 1;
-    if( this.numberInChanel[currentChannelName] == 2 ){
-       this.startGame(uid);
-    }
+    //if( this.numberInChanel[currentChannelName] == 2 ){
+    this.startGame(currentChannelName);
+    //}
     this.typeRoom[currentChannelName] = typeGame;
     var rs = {};
     rs["code"] = Code.OK;
@@ -312,15 +313,16 @@ var getSidByUid = function(uid, app) {
  *  Push all player start game
  * */
 
-var startGame = function( uid,channelName ){
-    var channel = this.app.get('channelService').getChannel(currentChannelName);
+RoomService.prototype.startGame = function( channelName ){
+    var channel = this.app.get('channelService').getChannel(channelName);
     if(channel) {
-        var sid = getSidByUid(uid, this.app);
-        channel.leave(uid, sid);
+
         var param = {
             route: 'onStart',
             code: 'OK'
         };
+        console.log("Param:"+param);
+        console.log(channel.getMembers().length);
         channel.pushMessage(param);
     }
 };

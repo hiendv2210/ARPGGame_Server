@@ -30,11 +30,10 @@ ChannelHandler.prototype.getBossInfo = function(msg, session, next) {
 
        var bossInfo = this.roomService.getBossInfo( channelName, session.get("typeGame") );
 
-
        var param = {
            route: 'onBossInfo',
            msg: bossInfo
-       }
+       };
        console.log("ChannelName:"+ channelName);
        var channel = channelService.getChannel( channelName ,false);
        if(channel){
@@ -54,7 +53,7 @@ ChannelHandler.prototype.finishBossAttack = function(msg,session,next){
      var param = {
          route : 'onStartBossAttack',
          msg: bossInfo
-     }
+     };
 
     var channel = this.app.get('channelService').getChannel( roomName ,false);
     if(channel){
