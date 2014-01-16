@@ -14,8 +14,7 @@ var createMysqlPool = function(app) {
 				user: mysqlConfig.user,
 				password: mysqlConfig.password,
 				database: mysqlConfig.database,
-				port: 3306,
-				socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
+				port: 3306
 			});
  
 			client.connect(function(err) {
