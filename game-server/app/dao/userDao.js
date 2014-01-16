@@ -213,8 +213,10 @@ userDao.createUser = function (username, password,cb){
 	var args = [username, password];
 	pomelo.app.get('dbclient').insert(sql, args, function(err,res){
 		if(err !== null){
+		    console.log("Error");
 			utils.invokeCallback(cb, {code: err.number, msg: err.message}, null);
 		} else {
+		    console.log("Tao thanh cong");
 			var user = new User({ username: res.username, password: res.password});
 			utils.invokeCallback(cb, null, user);
 		}

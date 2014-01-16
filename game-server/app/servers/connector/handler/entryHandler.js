@@ -66,11 +66,11 @@ handler.createUser = function( msg,session,next ){
 
     userDao.createUser(username,pwd, function(err, user) {
         if (err || !user) {
-            console.log('username not exist!');
+            console.log('Not create!');
             next(null,{code: 500});
             return;
         }
-
+		console.log("Tao thanh cong");
         next(null, { code: Code.OK});
 
     });
