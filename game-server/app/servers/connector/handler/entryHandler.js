@@ -56,10 +56,12 @@ handler.getToken = function( msg,session,next ){
 }
 
 handler.createUser = function( msg,session,next ){
+    console.log("createUser");
     var username = msg.username;
     var pwd = msg.pwd;
 
     if (!username || !pwd) {
+    	console.log("Username vs password ko ton tai");
         next(null,{code: 500});
         return;
     }
