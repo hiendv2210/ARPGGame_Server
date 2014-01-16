@@ -114,6 +114,7 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
     var returnVL = {};
     returnVL.code = Code.OK;
     returnVL.isEndStage = bossInfo.isFinish;
+
     if( !returnVL.isEndStage ){
         if( bossInfo.isStart){
             var param = {
@@ -128,14 +129,23 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
 
     }
     else{
-        var myInfo = this.roomService.getMyInfo(type,noPlayer,roomName);
-        var param = { };
-        param.route = 'onFinishStage';
-        param.msg = 'onFinishStage';
-        param.uids = [{uid:myInfo.uid,sid:getSidByUid(myInfo.name,this.app)}];
-
-        this.app.get('channelService').pushMessageByUids(param.route,param.msg,param.uids);
-
+        if(bossInfo.stage >= 3){
+            var param = { };
+            param.route = 'onFinishGame';
+            param.msg = 'true';
+            var channel = this.app.get('channelService').getChannel( roomName ,false);
+            if(channel){
+                channel.pushMessage(param);
+            }
+        }
+        else {
+            var myInfo = this.roomService.getMyInfo(type,noPlayer,roomName);
+            var param = { };
+            param.route = 'onFinishStage';
+            param.msg = 'onFinishStage';
+            param.uids = [{uid:myInfo.uid,sid:getSidByUid(myInfo.name,this.app)}];
+            this.app.get('channelService').pushMessageByUids(param.route,param.msg,param.uids);
+        }
     }
     // Send message
 
@@ -426,7 +436,6 @@ ChannelHandler.prototype.useItem = function( msg,session,next ){
 
     var type = msg.type;
     var id = msg.id;
-
     this.roomService.useItemPlayer(typeGame,noPlayer,roomName,id);
     var rs = this.roomService.getFriendInfo(roomName,typeGame,noPlayer);
 
@@ -470,7 +479,24 @@ ChannelHandler.prototype.updateUserInfo = function( msg,session,next ){
 }
 
 
-
+ChannelHandler.prototype.updateDieStatus = function( msg,session,next ){
+    console.log("updateDieStatus");
+    var roomName = session.get("channelName");
+    var type = session.get("typeGame");
+    var noPlayer = session.get("numberPlayer");
+    var rs = this.roomService.updateDieStatus(type,noPlayer,roomName);
+    if(rs){
+        var param = {};
+        param.route = "onFinishGame";
+        param.msg = "false";
+        //Check send start new stage
+        var channel = this.app.get('channelService').getChannel( roomName ,false);
+        if(channel){
+            channel.pushMessage(param);
+        }
+    }
+    next(null,{code: Code.OK});
+}
 
 
 var getSidByUid = function(uid, app) {

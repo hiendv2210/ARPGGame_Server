@@ -27,6 +27,9 @@ var Mode = function(opts) {
 
     this.item = new Item(opts.item);
     this.updateStage = false;
+
+
+    this.isDie = false;
 };
 
 module.exports = Mode;
@@ -141,6 +144,15 @@ pro.updateInfoFromClient = function(currenthp,currentGaue,kougeki){
     this.current_hp = currenthp;
     this.currentGauge = currentGaue;
     this.kougeki = kougeki;
+}
+
+
+pro.updateDieStatus = function(die){
+    this.isDie =  die;
+}
+
+pro.getStatusDie = function(){
+    return this.isDie;
 }
 
 

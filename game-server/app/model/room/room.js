@@ -347,6 +347,13 @@ pro.checkAllPlayerLock = function(){
     return true;
 }
 
+pro.checkIsFinishGame = function(){
+    for( var i = 0; i< this.player.length; i++){
+        if(!this.player[i].getStatusDie()) return false;
+    }
+    return true;
+}
+
 pro.poisonPlayer = function(noPlayer,isLock){
 
     this.player[noPlayer - 1].setIsPoison(isLock);
@@ -422,6 +429,12 @@ pro.updatePlayerInfoByNoPlayer = function(current_hp, kougeki,current_gauge,noPl
 
    this.player[noPlayer - 1].updateInfoFromClient(current_hp,current_gauge,kougeki);
 
+}
+
+
+pro.updateDieStatus = function(noPlayer){
+    console.log("updateDieStatus");
+    this.player[noPlayer - 1].updateDieStatus(true);
 }
 
 

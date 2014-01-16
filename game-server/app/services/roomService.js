@@ -240,7 +240,7 @@ RoomService.prototype.startBossAttack = function(currentRoomName,type,noPlayer){
     var returnVL = {};
     var isStart = false;
     var bossInfo = [];
-    var isFinish = false;
+    var stage = 0;
 
     if( type == 1){
         this.roomBlankList[currentRoomName].updateAttackAblePlayer(noPlayer - 1,false);
@@ -248,6 +248,7 @@ RoomService.prototype.startBossAttack = function(currentRoomName,type,noPlayer){
         isFinish = this.roomBlankList[currentRoomName].checkEndStage();
         if( isStart)
             bossInfo = this.roomBlankList[currentRoomName].getBossInfoBeforeStartAttack();
+        stage = this.roomBlankList[currentRoomName].getStage();
     }
     else {
         this.roomLightList[currentRoomName].updateAttackAblePlayer(noPlayer - 1,false);
@@ -255,6 +256,7 @@ RoomService.prototype.startBossAttack = function(currentRoomName,type,noPlayer){
         isFinish = this.roomLightList[currentRoomName].checkEndStage();
         if( isStart)
             bossInfo = this.roomLightList[currentRoomName].getBossInfoBeforeStartAttack();
+        stage = this.roomLightList[currentRoomName].getStage();
     }
 
 
@@ -262,6 +264,7 @@ RoomService.prototype.startBossAttack = function(currentRoomName,type,noPlayer){
     returnVL.isStart = isStart;
     returnVL.boss = bossInfo;
     returnVL.isFinish = isFinish;
+    returnVL.stage = stage;
 
     console.log(returnVL);
 
@@ -286,6 +289,8 @@ RoomService.prototype.finishBossAttack = function(currentRoomName, type, noPlaye
 
     var plInfo = [];
     var receivePlayer = "";
+
+    var isFinishGame = false;
 
     if( type == 1){
 
@@ -561,6 +566,19 @@ RoomService.prototype.updatePlayerInfoByNoPlayer = function(type,noPlayer,curren
     }
     else {
         this.roomLightList[currentRoomName].updatePlayerInfoByNoPlayer( current_hp, kougeki,current_gauge,noPlayer );
+    }
+
+}
+
+RoomService.prototype.updateDieStatus = function(type,noPlayer,currentRoomName){
+    console.log(type+"|"+noPlayer+"|"+currentRoomName);
+    if( type == 1){
+        this.roomBlankList[currentRoomName].updateDieStatus( noPlayer );
+        return this.roomBlankList[currentRoomName].checkIsFinishGame( noPlayer );
+    }
+    else {
+        this.roomLightList[currentRoomName].updateDieStatus( noPlayer );
+        return this.roomLightList[currentRoomName].checkIsFinishGame( noPlayer );
     }
 
 }

@@ -71,10 +71,7 @@ handler.createUser = function( msg,session,next ){
             return;
         }
 
-
-        console.log(user);
-
-        next(null, { code: Code.OK,uid: user.username});
+        next(null, { code: Code.OK});
 
     });
 
