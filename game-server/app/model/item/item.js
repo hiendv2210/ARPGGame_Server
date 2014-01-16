@@ -25,3 +25,29 @@ var Mode = function(opts) {
 module.exports = Mode;
 
 var pro = Mode.prototype;
+
+pro.reduceNumberItem = function(type){
+    switch(type){
+        case 1:
+            this.hp2000 -= 1;
+            if(this.hp2000 < 0) this.hp2000 = 0;
+            break;
+        case 2:
+            this.hp5000 -= 1;
+            if(this.hp5000 < 0) this.hp5000 = 0;
+            break;
+        case 3:
+            this.revive -= 1;
+            if(this.revive < 0) this.revive = 0;
+            break;
+        case 4:
+            this.unlock -= 1;
+            if(this.unlock < 0) this.unlock = 0;
+            break;
+        case 5:
+            this.anatoxic -= 1;
+            if(this.anatoxic < 0) this.anatoxic = 0;
+            break;
+    }
+
+}

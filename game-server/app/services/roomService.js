@@ -38,9 +38,7 @@ RoomService.prototype.add = function(typeGame,typeWeapon,uid, playerName) {
 
     var isCreatedRoom = false;
 
-    var sid = getSidByUid(uid, this.app);
-    console.log(uid);
-
+    var sid = getSidByUid(playerName, this.app);
     if(!sid) {
         return Code.CHAT.FA_UNKNOWN_CONNECTOR;
     }
@@ -61,11 +59,9 @@ RoomService.prototype.add = function(typeGame,typeWeapon,uid, playerName) {
 
     if(!channel) {
         channel = this.app.get('channelService').createChannel(currentChannelName);
-        console.log("Create ChannelName:"+currentChannelName);
         isCreatedRoom = true;
     }
     else if(channel && this.numberInChanel[currentChannelName] == 2){
-        console.log("Create ChannelName:"+currentChannelName);
         currentChanel += 1;
         isCreatedRoom = true;
         currentChannelName = channelName + currentChanel;
@@ -75,7 +71,7 @@ RoomService.prototype.add = function(typeGame,typeWeapon,uid, playerName) {
     if(!this.numberInChanel[currentChannelName]) this.numberInChanel[currentChannelName] = 0;
     // Add to chanel
 
-    channel.add(uid, sid);
+
 
     var opts = { type: typeGame };
 
@@ -84,8 +80,9 @@ RoomService.prototype.add = function(typeGame,typeWeapon,uid, playerName) {
         if( isCreatedRoom && this.roomBlankList[currentChannelName] == null ){
             this.roomBlankList[currentChannelName] = new Room(opts);
             this.roomBlankList[currentChannelName].updateStage();
-            this.roomBlankList[currentChannelName].createPlayer(this.numberInChanel[currentChannelName],typeWeapon,playerName);
+
         }
+        this.roomBlankList[currentChannelName].createPlayer(this.numberInChanel[currentChannelName],typeWeapon,playerName,uid);
 
     }
     else {
@@ -93,24 +90,49 @@ RoomService.prototype.add = function(typeGame,typeWeapon,uid, playerName) {
         if( isCreatedRoom && this.roomLightList[currentChannelName] == null ){
             this.roomLightList[currentChannelName] = new Room(opts);
             this.roomLightList[currentChannelName].updateStage();
-            this.roomLightList[currentChannelName].createPlayer(this.numberInChanel[currentChannelName],typeWeapon,playerName);
+
         }
+        this.roomLightList[currentChannelName].createPlayer(this.numberInChanel[currentChannelName],typeWeapon,playerName,uid);
     }
 
     this.numberInChanel[currentChannelName] += 1;
-    //if( this.numberInChanel[currentChannelName] == 2 ){
-    this.startGame(currentChannelName);
-    //}
+    if( this.numberInChanel[currentChannelName] == 2 ){
+        this.startGame(currentChannelName);
+        if( typeGame == 1){
+            this.roomBlankList[currentChannelName].updateStatusRoom(true);
+        }
+        else this.roomLightList[currentChannelName].updateStatusRoom(true);
+    }
     this.typeRoom[currentChannelName] = typeGame;
+
+    channel.add(uid, sid);
+
+    var param = {
+
+    }
+    param.route =  'onUpdatePlayer';
+
     var rs = {};
     rs["code"] = Code.OK;
     rs["channelName"] = currentChannelName;
     if( typeGame == 1){
         rs["room"] = this.roomBlankList[currentChannelName];
+        param.msg = this.roomBlankList[currentChannelName].getPlayerInfo();
     }
-    else rs["room"] = this.roomLightList[currentChannelName];
+    else{
+        rs["room"] = this.roomLightList[currentChannelName];
+        param.msg = this.roomLightList[currentChannelName].getPlayerInfo();
+    }
 
     rs["noPlayer"] = this.numberInChanel[currentChannelName];
+
+
+
+
+    // Update player
+    this.pushByChannel(currentChannelName,param);
+
+
     return rs;
 };
 
@@ -138,23 +160,24 @@ RoomService.prototype.leave = function(uid, channelName) {
  *
  * @param  {String} uid user id
  */
-RoomService.prototype.kick = function(uid,numberPlayer,currentChannelName) {
+RoomService.prototype.kick = function(uid,numberPlayer,currentChannelName,playerName) {
 
     //var channelNames = this.channelMap[uid];
 
     var channel = this.app.get('channelService').getChannel(currentChannelName);
     if(channel) {
-        var sid = getSidByUid(uid, this.app);
+        var sid = getSidByUid(playerName, this.app);
         channel.leave(uid, sid);
-        console.log("Leave channel");
+        // Leave user
         var param = {
             route: 'onLeave',
-            code: 'OK'
+            id: numberPlayer - 1
         };
+        console.log(param);
         channel.pushMessage(param);
     }
 
-    // Pull all chanel leave
+    // Pull all channel leave
 
     var type = this.typeRoom[currentChannelName];
 
@@ -179,32 +202,15 @@ RoomService.prototype.kick = function(uid,numberPlayer,currentChannelName) {
  * @param  {Object}   msg         message json object
  * @param  {Function} cb          callback function
  */
-RoomService.prototype.pushByChannel = function(channelName, msg, cb) {
+RoomService.prototype.pushByChannel = function(channelName, msg) {
     var channel = this.app.get('channelService').getChannel(channelName);
     if(!channel) {
         cb(new Error('channel ' + channelName + ' dose not exist'));
         return;
     }
-
-    channel.pushMessage(Event.chat, msg, cb);
+    channel.pushMessage(msg);
 };
 
-/**
- * Push message to the specified player
- *
- * @param  {String}   playerName player's role name
- * @param  {Object}   msg        message json object
- * @param  {Function} cb         callback
- */
-RoomService.prototype.pushByPlayerName = function(playerName, msg, cb) {
-    var record = this.nameMap[playerName];
-    if(!record) {
-        cb(null, Code.CHAT.FA_USER_NOT_ONLINE);
-        return;
-    }
-
-    this.app.get('channelService').pushMessageByUids(Event.chat, msg, [{uid: record.uid, sid: record.sid}], cb);
-};
 
 RoomService.prototype.getPlayerNameTarget = function( currentRoomName, type ){
     var room = null;
@@ -217,6 +223,8 @@ RoomService.prototype.getPlayerNameTarget = function( currentRoomName, type ){
 
 };
 
+
+
 RoomService.prototype.getBossInfo = function(currentRoomName,type){
 
     if( type == 1){
@@ -227,14 +235,38 @@ RoomService.prototype.getBossInfo = function(currentRoomName,type){
     }
 };
 
-RoomService.prototype.startBossAttack = function(currentRoomName,type){
+RoomService.prototype.startBossAttack = function(currentRoomName,type,noPlayer){
+
+    var returnVL = {};
+    var isStart = false;
+    var bossInfo = [];
+    var isFinish = false;
 
     if( type == 1){
-        return this.roomBlankList[currentRoomName].getBossInfoBeforeStartAttack();
+        this.roomBlankList[currentRoomName].updateAttackAblePlayer(noPlayer - 1,false);
+        isStart =  this.roomBlankList[currentRoomName].checkStartBossAttack();
+        isFinish = this.roomBlankList[currentRoomName].checkEndStage();
+        if( isStart)
+            bossInfo = this.roomBlankList[currentRoomName].getBossInfoBeforeStartAttack();
     }
     else {
-        return this.roomLightList[currentRoomName].getBossInfoBeforeStartAttack();
+        this.roomLightList[currentRoomName].updateAttackAblePlayer(noPlayer - 1,false);
+        isStart =  this.roomLightList[currentRoomName].checkStartBossAttack();
+        isFinish = this.roomLightList[currentRoomName].checkEndStage();
+        if( isStart)
+            bossInfo = this.roomLightList[currentRoomName].getBossInfoBeforeStartAttack();
     }
+
+
+
+    returnVL.isStart = isStart;
+    returnVL.boss = bossInfo;
+    returnVL.isFinish = isFinish;
+
+    console.log(returnVL);
+
+    return returnVL;
+
 };
 
 RoomService.prototype.updateBossHP = function(currentRoomName, type, bossName, reduceHP){
@@ -245,6 +277,69 @@ RoomService.prototype.updateBossHP = function(currentRoomName, type, bossName, r
     else {
         return this.roomLightList[currentRoomName].updateBossCurrentHP(bossName, reduceHP);
     }
+}
+
+
+RoomService.prototype.finishBossAttack = function(currentRoomName, type, noPlayer, playerInfo){
+
+    var isStart = false;
+
+    var plInfo = [];
+    var receivePlayer = "";
+
+    if( type == 1){
+
+        this.roomBlankList[currentRoomName].updatePlayerInfo(noPlayer - 1, playerInfo);
+        this.roomBlankList[currentRoomName].updateAttackAblePlayer(noPlayer - 1,true);
+        isStart = this.roomBlankList[currentRoomName].checkStartPlayerAttack();
+
+        if( isStart ){
+            plInfo = this.roomBlankList[currentRoomName].getPlayerInfoBeforeAttack();
+            receivePlayer = this.roomBlankList[currentRoomName].getPlayerNameTarget();
+        }
+
+    }
+    else {
+        this.roomLightList[currentRoomName].updatePlayerInfo(noPlayer - 1, playerInfo);
+        this.roomLightList[currentRoomName].updateAttackAblePlayer(noPlayer - 1,true);
+        isStart = this.roomLightList[currentRoomName].checkStartPlayerAttack();
+
+        if( isStart ) {
+            plInfo = this.roomLightList[currentRoomName].getPlayerInfoBeforeAttack();
+            receivePlayer = this.roomLightList[currentRoomName].getPlayerNameTarget();
+        }
+    }
+
+    var msg = {};
+
+    msg.isStart = isStart;
+    msg.player = plInfo;
+    msg.receivePlayer = receivePlayer;
+
+    return msg;
+}
+
+
+RoomService.prototype.getFriendInfo = function(currentRoomName, type, noPlayer){
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].getFriendInfo(noPlayer);
+    }
+    else {
+        return this.roomLightList[currentRoomName].getFriendInfo(noPlayer);
+    }
+
+}
+
+RoomService.prototype.reduceBossHP = function(currentRoomName, type, noPlayer,bossName,reduceHP){
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].reduceBossHP(noPlayer,bossName,reduceHP);
+    }
+    else {
+        return this.roomLightList[currentRoomName].reduceBossHP(noPlayer,bossName,reduceHP);
+    }
+
 }
 
 
@@ -315,14 +410,164 @@ var getSidByUid = function(uid, app) {
 
 RoomService.prototype.startGame = function( channelName ){
     var channel = this.app.get('channelService').getChannel(channelName);
+
     if(channel) {
 
         var param = {
             route: 'onStart',
             code: 'OK'
         };
-        console.log("Param:"+param);
-        console.log(channel.getMembers().length);
         channel.pushMessage(param);
     }
 };
+
+
+
+RoomService.prototype.useItem = function(itemType,playerTarget,noPlayer,type,currentRoomName){
+    console.log(currentRoomName+"|"+type+"|"+noPlayer);
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].useItem(itemType,playerTarget,noPlayer);
+    }
+    else {
+        return this.roomLightList[currentRoomName].useItem(itemType,playerTarget,noPlayer);
+    }
+
+}
+
+RoomService.prototype.lockPlayer = function(noPlayer,type,currentRoomName){
+
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].lockPlayer(noPlayer,true);
+    }
+    else {
+        return this.roomLightList[currentRoomName].lockPlayer(noPlayer,true);
+    }
+
+}
+
+RoomService.prototype.unlockPlayer = function(noPlayer,type,currentRoomName){
+
+
+    if( type == 1){
+        this.roomBlankList[currentRoomName].lockPlayer(noPlayer,false);
+    }
+    else {
+        this.roomLightList[currentRoomName].lockPlayer(noPlayer,false);
+    }
+
+}
+
+RoomService.prototype.poisonPlayer = function(noPlayer,type,currentRoomName){
+
+
+    if( type == 1){
+        this.roomBlankList[currentRoomName].poisonPlayer(noPlayer,false);
+    }
+    else {
+        this.roomLightList[currentRoomName].poisonPlayer(noPlayer,false);
+    }
+
+}
+
+RoomService.prototype.unPoisonPlayer = function(noPlayer,type,currentRoomName){
+
+
+    if( type == 1){
+        this.roomBlankList[currentRoomName].poisonPlayer(noPlayer,false);
+    }
+    else {
+        this.roomLightList[currentRoomName].poisonPlayer(noPlayer,false);
+    }
+
+}
+
+RoomService.prototype.updateStagePlayer = function(noPlayer,type,currentRoomName,isUpdate){
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].updateStatePlayerByNoPlayer(isUpdate,noPlayer);
+    }
+    else {
+        return this.roomLightList[currentRoomName].updateStatePlayerByNoPlayer(isUpdate,noPlayer);
+    }
+
+}
+
+RoomService.prototype.checkNewStage = function(noPlayer,type,currentRoomName){
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].checkUpdateStatePlayer();
+    }
+    else {
+        return this.roomLightList[currentRoomName].checkUpdateStatePlayer();
+    }
+
+}
+
+RoomService.prototype.updateNewStage = function(noPlayer,type,currentRoomName){
+
+    if( type == 1){
+        this.roomBlankList[currentRoomName].nextStage();
+        this.roomBlankList[currentRoomName].updateStage();
+        return this.roomBlankList[currentRoomName];
+    }
+    else {
+        this.roomLightList[currentRoomName].nextStage();
+        this.roomLightList[currentRoomName].updateStage();
+        return this.roomLightList[currentRoomName];
+    }
+
+}
+
+RoomService.prototype.getReceiveDropPlayer = function(type,currentRoomName){
+
+    if( type == 1){
+
+        return this.roomBlankList[currentRoomName].getPlayerNameTarget();
+    }
+    else {
+        return this.roomLightList[currentRoomName].getPlayerNameTarget();
+    }
+
+}
+
+RoomService.prototype.useItemPlayer = function(type,noPlayer,currentRoomName,id){
+    //console.log(currentRoomName+"|"+type+"|"+noPlayer+"|"+id);
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].useItem( type,noPlayer,id );
+    }
+    else {
+        return this.roomLightList[currentRoomName].useItem( type,noPlayer,id );
+    }
+
+}
+
+RoomService.prototype.getMyInfo = function(type,noPlayer,currentRoomName){
+
+    if( type == 1){
+        return this.roomBlankList[currentRoomName].getMyInfo( noPlayer );
+    }
+    else {
+        return this.roomLightList[currentRoomName].getMyInfo( noPlayer );
+    }
+
+}
+
+RoomService.prototype.updatePlayerInfoByNoPlayer = function(type,noPlayer,currentRoomName,current_hp, kougeki,current_gauge){
+
+    if( type == 1){
+        this.roomBlankList[currentRoomName].updatePlayerInfoByNoPlayer( current_hp, kougeki,current_gauge,noPlayer );
+    }
+    else {
+        this.roomLightList[currentRoomName].updatePlayerInfoByNoPlayer( current_hp, kougeki,current_gauge,noPlayer );
+    }
+
+}
+
+
+
+
+
+
+

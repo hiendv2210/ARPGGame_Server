@@ -27,7 +27,6 @@ var pro = Remote.prototype;
  */
 pro.auth = function(token, cb) {
 	var res = tokenService.parse(token, this.secret);
-    console.log("AUTH:"+res);
 	if(!res) {
 		cb(null, Code.ENTRY.FA_TOKEN_ILLEGAL);
 		return;
@@ -37,7 +36,6 @@ pro.auth = function(token, cb) {
 		cb(null, Code.ENTRY.FA_TOKEN_EXPIRE);
 		return;
 	}
-    console.log("GetUserByID:"+res.uid);
 	userDao.getUserById(res.uid, function(err, user) {
 		if(err) {
 			cb(err);

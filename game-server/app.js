@@ -8,7 +8,7 @@ var RoomService = require('./app/services/roomService');
  * Init app for client.
  */
 var app = pomelo.createApp();
-app.set('name','chatofpomelo');
+app.set('name','ARPGGame');
 
 //console.log("Chay app.js");
 

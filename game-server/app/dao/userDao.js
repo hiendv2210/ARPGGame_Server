@@ -22,7 +22,6 @@ userDao.getPlayersByUid = function(uid, cb){
 			utils.invokeCallback(cb, null, []);
 			return;
 		} else {
-			console.log("getPlayersByUid");
 			utils.invokeCallback(cb, null, res);
 		}
 	});
@@ -148,14 +147,10 @@ userDao.getUserByName = function (username, cb){
 	var args = [username];
 	pomelo.app.get('dbclient').query(sql,args,function(err, res){
 		if(err !== null){
-			console.log("LogError:"+err.message);
 			utils.invokeCallback(cb, err.message, null);
 		} else {
 			if (!!res && res.length === 1) {
 				var rs = res[0];
-				console.log(rs.id);
-				console.log(rs.username);
-				console.log(rs.password);
 				var user = new User({id: rs.id, name: rs.username, password: rs.password});
 				utils.invokeCallback(cb, null, user);
 			} else {
@@ -175,11 +170,9 @@ userDao.getUserById = function (uid, cb){
 	var args = [uid];
 	pomelo.app.get('dbclient').query(sql,args,function(err, res){
 		if(err !== null){
-            console.log("Error:"+err.message);
 			utils.invokeCallback(cb,err.message, null);
 			return;
 		}
-        console.log("Not Error");
 		if (!!res && res.length > 0) {
 			utils.invokeCallback(cb, null, new User(res[0]));
 		} else {
@@ -213,18 +206,16 @@ userDao.deleteByName = function (username, cb){
  * Create a new user
  * @param (String) username
  * @param {String} password
- * @param {String} from Register source
- * @param {function} cb Call back function.
  */
-userDao.createUser = function (username, password, from, cb){
-	var sql = 'insert into User (name,password,`from`,loginCount,lastLoginTime) values(?,?,?,?,?)';
-	var loginTime = Date.now();
-	var args = [username, password, from || '', 1, loginTime];
+userDao.createUser = function (username, password,cb){
+
+	var sql = 'insert into user (username,password) values(?,?)';
+	var args = [username, password];
 	pomelo.app.get('dbclient').insert(sql, args, function(err,res){
 		if(err !== null){
 			utils.invokeCallback(cb, {code: err.number, msg: err.message}, null);
 		} else {
-			var user = new User({id: res.insertId, name: username, password: password, loginCount: 1, lastLoginTime:loginTime});
+			var user = new User({ username: res.username, password: res.password});
 			utils.invokeCallback(cb, null, user);
 		}
 	});

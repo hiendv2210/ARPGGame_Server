@@ -29,7 +29,7 @@ NND.query = function(sql, args, cb){
 		}
 		client.query(sql, args, function(err, res) {
 			_pool.release(client);
-			console.log("Query:"+sql);
+
 			cb(err, res);
 		});
 	});

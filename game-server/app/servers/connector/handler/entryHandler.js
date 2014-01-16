@@ -45,8 +45,8 @@ handler.getToken = function( msg,session,next ){
       		return;
     	}
 
-    
-    	
+
+
     	var tk = Token.create(user.id, Date.now(), secret);
     	next(null, { code: Code.OK, token: tk , uid: user.id});
     	
@@ -54,7 +54,33 @@ handler.getToken = function( msg,session,next ){
 
 
 }
- 
+
+handler.createUser = function( msg,session,next ){
+    var username = msg.username;
+    var pwd = msg.pwd;
+
+    if (!username || !pwd) {
+        next(null,{code: 500});
+        return;
+    }
+
+    userDao.createUser(username,pwd, function(err, user) {
+        if (err || !user) {
+            console.log('username not exist!');
+            next(null,{code: 500});
+            return;
+        }
+
+
+        console.log(user);
+
+        next(null, { code: Code.OK,uid: user.username});
+
+    });
+
+
+}
+
 /**
  * New client entry chat server.
  *
@@ -69,7 +95,7 @@ handler.enter = function(msg, session, next) {
 	var token = msg.token, self = this;
     var typeGame = msg.typeGame;
     var typeWeapon = msg.typeWeapon;
-
+    var rid = msg.rid;
 	if(!token) {
 		next(new Error('invalid entry request: empty token'), {code: Code.FAIL});
 		return;
@@ -81,6 +107,7 @@ handler.enter = function(msg, session, next) {
 		function(cb) {
 			// auth token
 			self.app.rpc.auth.authRemote.auth(session, token, cb);
+            //self.app.rpc.auth.authRemote.auth(session, username, cb);
 			
 		}, function(code, user, cb) {
 			if(code !== Code.OK) {
@@ -92,7 +119,7 @@ handler.enter = function(msg, session, next) {
 				next(null, {code: Code.ENTRY.FA_USER_NOT_EXIST});
 				return;
 			}
-			
+			console.log("Userid:"+user.id);
 			uid = user.id;
 			userDao.getPlayersByUid(user.id, cb);
 		}, function(res, cb) {
@@ -115,9 +142,11 @@ handler.enter = function(msg, session, next) {
 			session.on('closed', onUserLeave.bind(null, self.app));
 			session.pushAll(cb);
 		}, function(cb) {
+            console.log("RoomRemote");
             self.app.rpc.room.roomRemote.add( session,typeGame, player.id, player.username, typeWeapon , cb );
 
-		},function(rs , cb){
+
+		},function(rs,cb){
 
             session.set('channelName', rs["channelName"]);
             session.push('channelName', function(err) {
@@ -131,8 +160,8 @@ handler.enter = function(msg, session, next) {
                     console.error('numberPlayer: %j', err.stack);
                 }
             });
+            next(null,{code:rs["code"], body: rs["room"] , noPlayer : rs["noPlayer"]});
 
-            next(null,{code:rs["code"], room: rs["room"] , noPlayer : rs["noPlayer"]});
         }
 	], function(err) {
 		if(err) {
@@ -155,7 +184,7 @@ var onUserLeave = function(app, session) {
 		return;
 	}
 
-
+    console.log("Remove:"+session.get("numberPlayer"));
 	//app.rpc.chat.chatRemote.kick(session, session.uid, app.get('serverId'), session.get('rid'), null);
-    app.rpc.room.roomRemote.kick(session,session.uid, session.get("numberPlayer"),session.get("channelName"),null);
+    app.rpc.room.roomRemote.kick(session,session.uid, session.get("numberPlayer"),session.get("channelName"),session.get("playername"),null);
 };

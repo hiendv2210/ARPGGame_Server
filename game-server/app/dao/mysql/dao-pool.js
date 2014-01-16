@@ -4,9 +4,7 @@ var _poolModule = require('generic-pool');
  * Create mysql connection pool.
  */
 var createMysqlPool = function(app) {
-	console.log("VLTN");
 	var mysqlConfig = app.get('mysql');
-	console.log("MySQL:"+mysqlConfig);
 	return _poolModule.Pool({
 		name: 'mysql',
 		create: function(callback) {
@@ -16,15 +14,13 @@ var createMysqlPool = function(app) {
 				user: mysqlConfig.user,
 				password: mysqlConfig.password,
 				database: mysqlConfig.database,
-				port: 3306
-				//socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
+				port: 3306,
+				socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
 			});
  
 			client.connect(function(err) {
   			// connected! (unless `err` is set)
 			});
-			console.log("client:"+mysqlConfig.host+"|"+mysqlConfig.user+"|"+mysqlConfig.password+"|"+mysqlConfig.database);
-			//client.connect();
 			callback(null, client);
 			
 
