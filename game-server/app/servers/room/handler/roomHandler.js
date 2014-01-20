@@ -83,7 +83,8 @@ ChannelHandler.prototype.finishBossAttack = function(msg,session,next){
                 channel.pushMessage(param);
             }
         }
-
+        console.log("finishBossAttack");
+        console.log(playerInfo);
         next(null,{ code: Code.OK });
 
     }
@@ -117,6 +118,7 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
 
     if( !returnVL.isEndStage ){
         if( bossInfo.isStart){
+            console.log("Push onStartBossAttack");
             var param = {
                 route : 'onStartBossAttack',
                 msg: bossInfo.boss
@@ -149,7 +151,7 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
     }
     // Send message
 
-    console.log("finishPlayerAttack");
+    console.log("finishPlayerAttack"+noPlayer);
     console.log(returnVL);
     next(null,{code:Code.OK,isEndStage:returnVL.isEndStage});
    // next(null,{ code: Code.OK});

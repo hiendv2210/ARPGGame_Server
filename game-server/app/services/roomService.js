@@ -246,16 +246,21 @@ RoomService.prototype.startBossAttack = function(currentRoomName,type,noPlayer){
         this.roomBlankList[currentRoomName].updateAttackAblePlayer(noPlayer - 1,false);
         isStart =  this.roomBlankList[currentRoomName].checkStartBossAttack();
         isFinish = this.roomBlankList[currentRoomName].checkEndStage();
-        if( isStart)
+        if( isStart){
             bossInfo = this.roomBlankList[currentRoomName].getBossInfoBeforeStartAttack();
+
+        }
+
         stage = this.roomBlankList[currentRoomName].getStage();
     }
     else {
         this.roomLightList[currentRoomName].updateAttackAblePlayer(noPlayer - 1,false);
         isStart =  this.roomLightList[currentRoomName].checkStartBossAttack();
         isFinish = this.roomLightList[currentRoomName].checkEndStage();
-        if( isStart)
+        if( isStart){
             bossInfo = this.roomLightList[currentRoomName].getBossInfoBeforeStartAttack();
+
+        }
         stage = this.roomLightList[currentRoomName].getStage();
     }
 
@@ -265,8 +270,6 @@ RoomService.prototype.startBossAttack = function(currentRoomName,type,noPlayer){
     returnVL.boss = bossInfo;
     returnVL.isFinish = isFinish;
     returnVL.stage = stage;
-
-    console.log(returnVL);
 
     return returnVL;
 
