@@ -83,6 +83,19 @@ ChannelHandler.prototype.finishBossAttack = function(msg,session,next){
                 channel.pushMessage(param);
             }
         }
+        else{
+            var rs = this.roomService.getFriendInfo(roomName,type,noPlayer);
+            if( rs != null ){
+                var param = {};
+                param.route = "onFinishAttackBossFriend";
+                param.msg = msg;
+                param.uids = [{uid:rs.uid,sid:getSidByUid(rs.name,this.app)}];
+
+                this.app.get('channelService').pushMessageByUids(param.route,param.msg,param.uids);
+            }
+
+
+        }
         console.log("finishBossAttack");
         console.log(playerInfo);
         next(null,{ code: Code.OK });
@@ -127,6 +140,21 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
             if(channel){
                 channel.pushMessage(param);
             }
+        }
+        else{
+            var rs = this.roomService.getFriendInfo(roomName,type,noPlayer);
+            if( rs != null ){
+                var param = {};
+                param.route = "onFinishAttackFriend";
+                param.msg = msg;
+                /*
+                 * param.msg = msg;
+                 * */
+                param.uids = [{uid:rs.uid,sid:getSidByUid(rs.name,this.app)}];
+
+                this.app.get('channelService').pushMessageByUids(param.route,param.msg,param.uids);
+            }
+
         }
 
     }
@@ -482,12 +510,14 @@ ChannelHandler.prototype.updateUserInfo = function( msg,session,next ){
 
 
 ChannelHandler.prototype.updateDieStatus = function( msg,session,next ){
-    console.log("updateDieStatus");
+
     var roomName = session.get("channelName");
     var type = session.get("typeGame");
     var noPlayer = session.get("numberPlayer");
     var rs = this.roomService.updateDieStatus(type,noPlayer,roomName);
-    if(rs){
+    console.log("updateDieStatus");
+    console.log(rs);
+    if(rs.isFinishGame){
         var param = {};
         param.route = "onFinishGame";
         param.msg = "false";
@@ -497,6 +527,29 @@ ChannelHandler.prototype.updateDieStatus = function( msg,session,next ){
             channel.pushMessage(param);
         }
     }
+    else {
+        if( rs.isStart){
+
+            // Send start boss
+
+            var param = {
+                route : 'onStartBossAttack',
+                msg: rs.bossInfo
+            };
+
+            var channel = this.app.get('channelService').getChannel( roomName ,false);
+
+
+
+
+            if(channel){
+                channel.pushMessage(param);
+            }
+        }
+    }
+
+    // Check start boss
+
     next(null,{code: Code.OK});
 }
 

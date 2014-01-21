@@ -575,15 +575,27 @@ RoomService.prototype.updatePlayerInfoByNoPlayer = function(type,noPlayer,curren
 
 RoomService.prototype.updateDieStatus = function(type,noPlayer,currentRoomName){
     console.log(type+"|"+noPlayer+"|"+currentRoomName);
+    var returnVL = {};
+
     if( type == 1){
         this.roomBlankList[currentRoomName].updateDieStatus( noPlayer );
-        return this.roomBlankList[currentRoomName].checkIsFinishGame( noPlayer );
+        //return this.roomBlankList[currentRoomName].checkIsFinishGame( noPlayer );
+        returnVL.isFinishGame = this.roomBlankList[currentRoomName].checkIsFinishGame( noPlayer );
+        returnVL.isStart = this.roomBlankList[currentRoomName].checkStartBossAttack();
+        if(!returnVL.isFinishGame && returnVL.isStart){
+            returnVL.bossInfo = this.roomBlankList[currentRoomName].getBossInfoBeforeStartAttack();
+        }
     }
     else {
         this.roomLightList[currentRoomName].updateDieStatus( noPlayer );
-        return this.roomLightList[currentRoomName].checkIsFinishGame( noPlayer );
+        //return this.roomLightList[currentRoomName].checkIsFinishGame( noPlayer );
+        returnVL.isFinishGame = this.roomLightList[currentRoomName].checkIsFinishGame( noPlayer );
+        returnVL.isStart = this.roomLightList[currentRoomName].checkStartBossAttack();
+        if(!returnVL.isFinishGame && returnVL.isStart){
+           returnVL.bossInfo = this.roomLightList[currentRoomName].getBossInfoBeforeStartAttack();
+        }
     }
-
+    return returnVL;
 }
 
 
