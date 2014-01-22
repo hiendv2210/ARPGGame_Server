@@ -432,7 +432,7 @@ RoomService.prototype.startGame = function( channelName ){
 
 
 RoomService.prototype.useItem = function(itemType,playerTarget,noPlayer,type,currentRoomName){
-    console.log(currentRoomName+"|"+type+"|"+noPlayer);
+
 
     if( type == 1){
         return this.roomBlankList[currentRoomName].useItem(itemType,playerTarget,noPlayer);
@@ -574,7 +574,6 @@ RoomService.prototype.updatePlayerInfoByNoPlayer = function(type,noPlayer,curren
 }
 
 RoomService.prototype.updateDieStatus = function(type,noPlayer,currentRoomName){
-    console.log(type+"|"+noPlayer+"|"+currentRoomName);
     var returnVL = {};
 
     if( type == 1){
@@ -600,6 +599,28 @@ RoomService.prototype.updateDieStatus = function(type,noPlayer,currentRoomName){
 
 
 
+RoomService.prototype.updateCountDownTimeRevive = function(type,noPlayer,currentRoomName){
+
+
+    if( type == 1){
+        this.roomBlankList[currentRoomName].updateCountDownTimeRevive( noPlayer );
+
+    }
+    else {
+        this.roomLightList[currentRoomName].updateCountDownTimeRevive( noPlayer );
+    }
+}
+
+RoomService.prototype.updatePlayerOfTarget = function(type,noPlayer,currentRoomName){
+
+    if( type == 1){
+        this.roomBlankList[currentRoomName].updatePlayerOfTarget( noPlayer );
+    }
+    else {
+        this.roomLightList[currentRoomName].updatePlayerOfTarget( noPlayer );
+    }
+
+}
 
 
 

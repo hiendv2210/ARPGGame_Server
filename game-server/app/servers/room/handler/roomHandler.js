@@ -72,7 +72,6 @@ ChannelHandler.prototype.finishBossAttack = function(msg,session,next){
 
         if(playerInfo.isStart){
             var receivePlayer = this.roomService.getReceiveDropPlayer( type,roomName);
-            console.log(receivePlayer);
             var param = {
                 route : 'onStartPlayerAttack',
                 msg: {player:playerInfo.player,receivePlayer:receivePlayer}
@@ -90,14 +89,13 @@ ChannelHandler.prototype.finishBossAttack = function(msg,session,next){
                 param.route = "onFinishAttackBossFriend";
                 param.msg = msg;
                 param.uids = [{uid:rs.uid,sid:getSidByUid(rs.name,this.app)}];
-
+                console.log("Send onFinishAttackBossFriend");
                 this.app.get('channelService').pushMessageByUids(param.route,param.msg,param.uids);
             }
 
 
         }
-        console.log("finishBossAttack");
-        console.log(playerInfo);
+        console.log("finishBossAttack:"+noPlayer);
         next(null,{ code: Code.OK });
 
     }
@@ -128,7 +126,7 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
     var returnVL = {};
     returnVL.code = Code.OK;
     returnVL.isEndStage = bossInfo.isFinish;
-
+    console.log(bossInfo);
     if( !returnVL.isEndStage ){
         if( bossInfo.isStart){
             console.log("Push onStartBossAttack");
@@ -151,7 +149,8 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
                  * param.msg = msg;
                  * */
                 param.uids = [{uid:rs.uid,sid:getSidByUid(rs.name,this.app)}];
-
+                console.log("Push onFinishAttackFriend");
+                console.log(param.uids);
                 this.app.get('channelService').pushMessageByUids(param.route,param.msg,param.uids);
             }
 
@@ -159,7 +158,7 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
 
     }
     else{
-        if(bossInfo.stage >= 3){
+        if(bossInfo.stage > 3){
             var param = { };
             param.route = 'onFinishGame';
             param.msg = 'true';
@@ -552,6 +551,49 @@ ChannelHandler.prototype.updateDieStatus = function( msg,session,next ){
 
     next(null,{code: Code.OK});
 }
+
+
+ChannelHandler.prototype.updateCountDownTimeRevive = function( msg,session,next ){
+
+    var roomName = session.get("channelName");
+    var type = session.get("typeGame");
+    var noPlayer = session.get("numberPlayer");
+    this.roomService.updateCountDownTimeRevive(type,noPlayer,roomName);
+    var rs = this.roomService.getFriendInfo(roomName,type,noPlayer);
+    if( rs != null ){
+        var param = {};
+        param.route = "onCountDownRevive";
+        param.msg = "onCountDownRevive";
+        param.uids = [{uid:rs.uid,sid:getSidByUid(rs.name,this.app)}];
+        console.log("onCountDownRevive");
+        console.log(param);
+        this.app.get('channelService').pushMessageByUids(param.route,param.msg,param.uids);
+    }
+    // Check start boss
+
+    next(null,{code: Code.OK});
+}
+
+
+/*ChannelHandler.prototype.updateTargetName = function( msg,session,next ){
+    var roomName = session.get("channelName");
+    var type = session.get("typeGame");
+    var noPlayer = session.get("numberPlayer");
+    var rs = this.roomService.updatePlayerOfTarget(type,noPlayer,noPlayer);
+
+    var myInfo = this.roomService.getMyInfo(type,noPlayer,roomName);
+    var param = { };
+    param.route = 'onFinishStage';
+    param.msg = rs;
+
+    param.uids = [{uid:myInfo.uid,sid:getSidByUid(myInfo.name,this.app)}];
+    this.app.get('channelService').pushMessageByUids(param.route,param.msg,param.uids);
+
+
+
+
+} */
+
 
 
 var getSidByUid = function(uid, app) {
