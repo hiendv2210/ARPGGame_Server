@@ -15,7 +15,6 @@ var Room = function(opts) {
     this.stage = 1;
     this.type = opts.type;
     this.isStart = false;
-
 };
 
 var RoomDetail = {
@@ -44,14 +43,12 @@ module.exports = Room;
 
 var pro = Room.prototype;
 
-
 pro.updateStage = function(){
     this.boss = [];
     this.isStart = true;
     var detail = RoomDetail[this.stage - 1];
     for( var i  = 0 ; i < detail.length ; i ++ ){
           var opts = {};
-
           opts.name = detail[i].name;
           opts.kougeki = detail[i].kougeki;
           opts.hp = detail[i].hp;
@@ -59,29 +56,24 @@ pro.updateStage = function(){
           opts.turn = Math.floor(Math.random() * 3) + 1;
           opts.attribute = detail[i].attribute;
           opts.target = "";
-
           var bs = new Boss(opts);
           this.boss[i] = bs;
           this.boss[i].updateSpecailAttack();
     }
 
+    for( var i = 0; i < this.player.length ; i++){
+        this.player[i].setUpdateStage(false);
+
+    }
 
 }
 
-
-
 pro.getRoomOfBoosInfo = function(){
-
     return this.boss;
-
-
 }
 
 pro.getPlayerInfo = function( ){
-
     return this.player;
-
-
 }
 
 pro.createPlayer = function( noPlayer , typeWeapon,namePlayer,uid ){
@@ -92,8 +84,10 @@ pro.createPlayer = function( noPlayer , typeWeapon,namePlayer,uid ){
     if( typeWeapon == 2){
 
         opts.kougeki = 200;
-        opts.hp = 9999;
-        opts.current_hp = 9999;
+        //opts.hp = 9999;
+        //opts.current_hp = 9999;
+        opts.hp = 1000;
+        opts.current_hp = 1000;
         opts.gauge = 500;
         opts.currentGauge = 0;
         opts.level = 1;
@@ -101,8 +95,10 @@ pro.createPlayer = function( noPlayer , typeWeapon,namePlayer,uid ){
     }
     else {
         opts.kougeki = 150;
-        opts.hp = 9999;
-        opts.current_hp = 9999;
+        //opts.hp = 9999;
+        //opts.current_hp = 9999;
+        opts.hp = 1000;
+        opts.current_hp = 1000;
         opts.gauge = 500;
         opts.currentGauge = 0;
         opts.level = 1;
@@ -124,7 +120,8 @@ pro.createPlayer = function( noPlayer , typeWeapon,namePlayer,uid ){
 pro.removePlayer = function(noPlayer){
     //console.log(noPlayer);
     //this.player[noPlayer - 1 ] = "";
-    this.player.splice(noPlayer - 1 ,1);
+    if(typeof this.player[noPlayer -1 ] != undefined)
+        this.player.splice(noPlayer - 1 ,1);
 
 }
 
@@ -132,6 +129,7 @@ pro.getBossInfoBeforeStartAttack = function(){
     for( var i = 0; i < this.boss.length; i++){
        this.boss[i].updateTarget( this.getPlayerNameTarget());
        this.boss[i].updateSpecailAttack();
+       this.boss[i].reduceTurn();
     }
     return this.boss;
 }
@@ -193,7 +191,8 @@ pro.getBossNameTarget = function(){
 }
 
 pro.updatePlayerInfo = function(noPlayer, playerInfo){
-    this.player[noPlayer].updatePlayerInfo(playerInfo);
+    if(typeof this.player[noPlayer] != undefined)
+          this.player[noPlayer].updatePlayerInfo(playerInfo);
 }
 
 pro.updateAttackAbleAllPlayer = function(attackAble){
@@ -209,10 +208,13 @@ pro.updateAttackAbleAllPlayer = function(attackAble){
 }
 
 pro.updateAttackAblePlayer = function(noPlayer,attackAble){
-    if( this.player[noPlayer].getCurrentHP() > 0 ){
-        this.player[noPlayer].setAttackAble(attackAble);
+    if(typeof this.player[noPlayer] != undefined){
+        if( this.player[noPlayer].getCurrentHP() > 0 ){
+            this.player[noPlayer].setAttackAble(attackAble);
+        }
+        else this.player[noPlayer].setAttackAble(false);
     }
-    else this.player[noPlayer].setAttackAble(false);
+
 
 
 }
@@ -220,7 +222,7 @@ pro.updateAttackAblePlayer = function(noPlayer,attackAble){
 pro.checkStartPlayerAttack = function(){
     var countPlayer = this.player.length;
     for( var i  = 0; i < countPlayer ; i++ ){
-        if( this.player[i].getCurrentHP() > 0 && !this.player[i].getAttackAble()){
+        if( this.player[i].getCurrentHP() > 0 && !this.player[i].getAttackAble() ){
             return false;
         }
     }
@@ -230,7 +232,7 @@ pro.checkStartPlayerAttack = function(){
 pro.checkStartBossAttack = function(){
     var countPlayer = this.player.length;
     for( var i  = 0; i < countPlayer ; i++ ){
-        if( this.player[i].getCurrentHP() > 0 && this.player[i].getAttackAble()){
+        if( this.player[i].getCurrentHP() > 0 && !this.player[i].getIsLock() && this.player[i].getAttackAble()){
             return false;
         }
     }
@@ -324,7 +326,7 @@ pro.checkPlayerOfTarget = function(targetName){
 }  */
 
 pro.getPlayerByID = function(playerTarget){
-    console.log(playerTarget);
+
     for(var i = 0; i< this.player.length ; i++){
         if( this.player[i].getID() == playerTarget){
             return this.player[i];
@@ -335,8 +337,10 @@ pro.getPlayerByID = function(playerTarget){
 }
 
 pro.lockPlayer = function(noPlayer,isLock){
+    if(typeof this.player[noPlayer - 1 ] != undefined){
+        this.player[noPlayer - 1].setIsLock(isLock);
+    }
 
-    this.player[noPlayer - 1].setIsLock(isLock);
     return this.checkAllPlayerLock();
 }
 
@@ -355,8 +359,8 @@ pro.checkIsFinishGame = function(){
 }
 
 pro.poisonPlayer = function(noPlayer,isLock){
-
-    this.player[noPlayer - 1].setIsPoison(isLock);
+    if(typeof this.player[noPlayer -1 ] != undefined)
+        this.player[noPlayer - 1].setIsPoison(isLock);
 
 }
 
@@ -375,8 +379,6 @@ pro.checkEndStage = function(){
 }
 
 pro.checkUpdateStatePlayer = function(){
-    console.log("Check Update Player");
-    console.log(this.player);
     for( var i = 0; i < this.player.length ; i++){
         if(this.player[i].getCurrentHP() > 0){
             if( !this.player[i].getUpdateStage()) return false;
@@ -414,28 +416,46 @@ pro.nextStage = function(){
 }
 
 pro.useItem = function(type,noPlayer,id){
-
-    this.player[noPlayer-1].useItem(type);
+    if(typeof this.player[noPlayer -1 ] != undefined)
+        this.player[noPlayer-1].useItem(type);
     this.player[id].addItemEffect(type);
 
 }
 
 pro.getMyInfo = function(noPlayer){
-   return this.player[noPlayer -1 ];
+   if(typeof this.player[noPlayer -1 ] != undefined)
+        return this.player[noPlayer -1 ];
+    return [];
 }
 
 
 pro.updatePlayerInfoByNoPlayer = function(current_hp, kougeki,current_gauge,noPlayer){
-
-   this.player[noPlayer - 1].updateInfoFromClient(current_hp,current_gauge,kougeki);
+   if(typeof this.player[noPlayer -1 ] != undefined)
+    this.player[noPlayer - 1].updateInfoFromClient(current_hp,current_gauge,kougeki);
 
 }
 
 
 pro.updateDieStatus = function(noPlayer){
     console.log("updateDieStatus");
-    this.player[noPlayer - 1].updateDieStatus(true);
+    if(typeof this.player[noPlayer -1 ] != undefined)
+        this.player[noPlayer - 1].updateDieStatus(true);
 }
 
+
+pro.updateCountDownTimeRevive = function( noPlayer) {
+    if(typeof this.player[noPlayer -1 ] != undefined)
+        this.player[noPlayer - 1].updateCurrentHP(0);
+}
+
+
+pro.updatePlayerOfTarget = function( noPlayer) {
+    if(typeof this.player[noPlayer -1 ] != undefined){
+        this.player[noPlayer - 1].updateTarget(this.getBossNameTarget());
+        return this.player[noPlayer - 1].getTarget();
+    }
+    return "";
+
+}
 
 

@@ -21,7 +21,7 @@ var Mode = function(opts) {
     this.lockCount = opts.lockCount;
     this.isPoisoned = opts.isPoisoned;
     this.poisonCount = opts.poisonCount;
-    this.isAttackable = false;
+    this.isAttackable = true;
     this.target = opts.target;
     this.uid = opts.uid;
 
@@ -42,7 +42,6 @@ pro.getName = function(){
 
 
 pro.updatePlayerInfo = function( playerInfo){
-    console.log(playerInfo);
     this.kougeki = playerInfo.kougeki;
     this.current_hp = playerInfo.current_hp;
     this.currentGauge = playerInfo.current_gauge;
@@ -149,10 +148,15 @@ pro.updateInfoFromClient = function(currenthp,currentGaue,kougeki){
 
 pro.updateDieStatus = function(die){
     this.isDie =  die;
+    this.current_hp = 0;
 }
 
 pro.getStatusDie = function(){
     return this.isDie;
+}
+
+pro.updateCurrentHP = function(valueHP){
+    this.current_hp = valueHP;
 }
 
 

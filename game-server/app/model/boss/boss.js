@@ -65,6 +65,7 @@ pro.updateSpecailAttack = function(){
     if (this.attribute != 3)
     {
         var isSpecial = checkRate (30);
+        //var isSpecial = checkRate (100);
 
         if (isSpecial)
         {
@@ -77,6 +78,8 @@ pro.updateSpecailAttack = function(){
     }
     else
     {
+       // var isPoison = checkRate(0);
+       // var isLock = checkRate(0);
         var isPoison = checkRate(0);
         var isLock = checkRate(0);
 
@@ -102,6 +105,16 @@ pro.updateSpecailAttack = function(){
 
 }
 
+pro.reduceTurn = function(){
+    this.turn -- ;
+    if(this.turn <= 0){
+        this.turn = 3;
+        return true;
+    }
+    return false;
+
+
+}
 
 var checkRate = function(i){
     var rd = Math.floor(Math.random() * 100) + 1;
