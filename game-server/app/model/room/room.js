@@ -84,10 +84,10 @@ pro.createPlayer = function( noPlayer , typeWeapon,namePlayer,uid ){
     if( typeWeapon == 2){
 
         opts.kougeki = 200;
-        opts.hp = 9999;
-        opts.current_hp = 9999;
-        //opts.hp = 1000;
-        //opts.current_hp = 1000;
+        //opts.hp = 9999;
+        //opts.current_hp = 9999;
+        opts.hp = 1000;
+        opts.current_hp = 1000;
         opts.gauge = 500;
         opts.currentGauge = 0;
         opts.level = 1;

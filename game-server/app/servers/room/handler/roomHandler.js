@@ -179,7 +179,6 @@ ChannelHandler.prototype.finishPlayerAttack = function(msg,session,next ){
     // Send message
 
     console.log("finishPlayerAttack"+noPlayer);
-    console.log(returnVL);
     next(null,{code:Code.OK,isEndStage:returnVL.isEndStage});
    // next(null,{ code: Code.OK});
 }
