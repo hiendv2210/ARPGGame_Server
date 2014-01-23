@@ -62,6 +62,7 @@ pro.updateStage = function(){
 
     for( var i = 0; i < this.player.length ; i++){
         this.player[i].setUpdateStage(false);
+        this.player[i].setAttackAble(true);
 
     }
 
