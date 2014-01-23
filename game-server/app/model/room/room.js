@@ -19,9 +19,9 @@ var Room = function(opts) {
 
 var RoomDetail = {
     0:[
-        {name: "angel_1",hp: 5000000, kougeki :1000,attribute:3},
-        {name: "angel_2",hp: 5000000, kougeki :1000,attribute:3},
-        {name: "angel_3",hp: 5000000, kougeki :1000,attribute:3}
+        {name: "angel_1",hp: 5000, kougeki :1000,attribute:3},
+        {name: "angel_2",hp: 5000, kougeki :1000,attribute:3},
+        {name: "angel_3",hp: 5000, kougeki :1000,attribute:3}
       ],
     1:[
         {name: "angel_1",hp: 8000, kougeki :500,attribute:1},
