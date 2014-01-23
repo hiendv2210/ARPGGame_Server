@@ -35,7 +35,6 @@ var RoomDetail = {
     ],
     3:[
         {name: "angel_1",hp: 90000, kougeki :2000,attribute:3}
-
     ]
 }
 
