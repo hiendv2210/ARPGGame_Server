@@ -5,8 +5,6 @@
  * Time: 10:19 AM
  * To change this template use File | Settings | File Templates.
  */
-
-
 var Mode = function(opts) {
     this.name = opts.name;
     this.kougeki = opts.kougeki;
@@ -19,7 +17,6 @@ var Mode = function(opts) {
 };
 
 module.exports = Mode;
-
 var pro = Mode.prototype;
 
 pro.updateAllInfo = function(opts){
